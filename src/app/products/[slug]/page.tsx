@@ -7,6 +7,8 @@ import { DemoBadge, ConfidenceBadge } from "@/components/ui/badge";
 import { TrendBadge } from "@/components/ui/trend";
 import { SaveProductButton, CompareAddButton } from "@/components/follow-button";
 import { ProductVisual } from "@/components/ui/product-visual";
+import { ReactionBar } from "@/components/reaction-bar";
+import { ProductCommunityReviews } from "@/components/community-reviews";
 import {
   getProduct,
   getProducts,
@@ -326,6 +328,16 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             </a>
           ))}
         </div>
+      </Section>
+
+      {/* Quick reaction */}
+      <Section className="py-8">
+        <ReactionBar productSlug={product.slug} />
+      </Section>
+
+      {/* Community reviews */}
+      <Section className="py-8">
+        <ProductCommunityReviews productSlug={product.slug} productLabel={product.englishName} />
       </Section>
     </div>
   );

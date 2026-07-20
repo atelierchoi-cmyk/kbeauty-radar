@@ -175,3 +175,243 @@ export function useUserProfile() {
 
   return { profile, update };
 }
+
+// ---------------------------------------------------------------------------
+// Community layer: user-written reviews, brief comments, quick reactions,
+// and a cross-page activity feed. All of this is genuine user-generated
+// content typed directly into K-Beauty Radar — never scraped or copied
+// from other platforms. It's localStorage-backed for this demo build
+// (single device, no accounts required to post); moving to Supabase +
+// Auth would make it persistent and cross-device — see supabase/schema.sql
+// and the "Connecting Supabase" section of the README for the shape this
+// would take (a `reviews` / `comments` / `reactions` table keyed by user id).
+// ---------------------------------------------------------------------------
+
+export interface ProductReview {
+  id: string;
+  author: string;
+  rating: number; // 1-5
+  skinType?: string;
+  text: string;
+  createdAt: string;
+  helpful: number;
+}
+
+export interface BriefComment {
+  id: string;
+  author: string;
+  text: string;
+  createdAt: string;
+  helpful: number;
+}
+
+export interface ActivityEntry {
+  id: string;
+  type: "review" | "comment";
+  author: string;
+  targetSlug: string;
+  targetLabel: string;
+  snippet: string;
+  createdAt: string;
+}
+
+const ACTIVITY_FEED_KEY = "kbr:activity-feed";
+const FEED_LIMIT = 50;
+
+function pushActivity(entry: ActivityEntry) {
+  try {
+    const raw = window.localStorage.getItem(ACTIVITY_FEED_KEY);
+    const current: ActivityEntry[] = raw ? JSON.parse(raw) : [];
+    const next = [entry, ...current].slice(0, FEED_LIMIT);
+    window.localStorage.setItem(ACTIVITY_FEED_KEY, JSON.stringify(next));
+    window.dispatchEvent(new CustomEvent("kbr-storage", { detail: { key: ACTIVITY_FEED_KEY } }));
+  } catch {
+    // ignore
+  }
+}
+
+function readJson<T>(key: string, fallback: T): T {
+  if (typeof window === "undefined") return fallback;
+  try {
+    const raw = window.localStorage.getItem(key);
+    return raw ? (JSON.parse(raw) as T) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function writeJson<T>(key: string, value: T) {
+  window.localStorage.setItem(key, JSON.stringify(value));
+  window.dispatchEvent(new CustomEvent("kbr-storage", { detail: { key } }));
+}
+
+export function useProductReviews(productSlug: string, productLabel: string) {
+  const key = `kbr:reviews:${productSlug}`;
+  const [reviews, setReviews] = useState<ProductReview[]>([]);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- hydration-safe sync from localStorage (no window during SSR)
+    setReviews(readJson(key, []));
+    const handler = (e: Event) => {
+      const detail = (e as CustomEvent).detail;
+      if (!detail || detail.key === key) setReviews(readJson(key, []));
+    };
+    window.addEventListener("kbr-storage", handler);
+    return () => window.removeEventListener("kbr-storage", handler);
+  }, [key]);
+
+  const addReview = useCallback(
+    (input: { author: string; rating: number; skinType?: string; text: string }) => {
+      const review: ProductReview = {
+        id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+        author: input.author,
+        rating: input.rating,
+        skinType: input.skinType,
+        text: input.text,
+        createdAt: new Date().toISOString(),
+        helpful: 0,
+      };
+      const next = [review, ...readJson<ProductReview[]>(key, [])];
+      writeJson(key, next);
+      setReviews(next);
+      pushActivity({
+        id: review.id,
+        type: "review",
+        author: input.author,
+        targetSlug: productSlug,
+        targetLabel: productLabel,
+        snippet: input.text.slice(0, 140),
+        createdAt: review.createdAt,
+      });
+    },
+    [key, productSlug, productLabel]
+  );
+
+  const markHelpful = useCallback(
+    (id: string) => {
+      const current = readJson<ProductReview[]>(key, []);
+      const next = current.map((r) => (r.id === id ? { ...r, helpful: r.helpful + 1 } : r));
+      writeJson(key, next);
+      setReviews(next);
+    },
+    [key]
+  );
+
+  return { reviews, addReview, markHelpful };
+}
+
+export function useBriefComments(briefSlug: string, briefLabel: string) {
+  const key = `kbr:comments:${briefSlug}`;
+  const [comments, setComments] = useState<BriefComment[]>([]);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- hydration-safe sync from localStorage (no window during SSR)
+    setComments(readJson(key, []));
+    const handler = (e: Event) => {
+      const detail = (e as CustomEvent).detail;
+      if (!detail || detail.key === key) setComments(readJson(key, []));
+    };
+    window.addEventListener("kbr-storage", handler);
+    return () => window.removeEventListener("kbr-storage", handler);
+  }, [key]);
+
+  const addComment = useCallback(
+    (input: { author: string; text: string }) => {
+      const comment: BriefComment = {
+        id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+        author: input.author,
+        text: input.text,
+        createdAt: new Date().toISOString(),
+        helpful: 0,
+      };
+      const next = [comment, ...readJson<BriefComment[]>(key, [])];
+      writeJson(key, next);
+      setComments(next);
+      pushActivity({
+        id: comment.id,
+        type: "comment",
+        author: input.author,
+        targetSlug: briefSlug,
+        targetLabel: briefLabel,
+        snippet: input.text.slice(0, 140),
+        createdAt: comment.createdAt,
+      });
+    },
+    [key, briefSlug, briefLabel]
+  );
+
+  const markHelpful = useCallback(
+    (id: string) => {
+      const current = readJson<BriefComment[]>(key, []);
+      const next = current.map((c) => (c.id === id ? { ...c, helpful: c.helpful + 1 } : c));
+      writeJson(key, next);
+      setComments(next);
+    },
+    [key]
+  );
+
+  return { comments, addComment, markHelpful };
+}
+
+export function useActivityFeed() {
+  const [feed, setFeed] = useState<ActivityEntry[]>([]);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- hydration-safe sync from localStorage (no window during SSR)
+    setFeed(readJson(ACTIVITY_FEED_KEY, []));
+    const handler = (e: Event) => {
+      const detail = (e as CustomEvent).detail;
+      if (!detail || detail.key === ACTIVITY_FEED_KEY) setFeed(readJson(ACTIVITY_FEED_KEY, []));
+    };
+    window.addEventListener("kbr-storage", handler);
+    return () => window.removeEventListener("kbr-storage", handler);
+  }, []);
+
+  return { feed };
+}
+
+const REACTION_EMOJIS = ["😍", "👍", "🤔", "😖"] as const;
+export type ReactionEmoji = (typeof REACTION_EMOJIS)[number];
+
+export function useProductReactions(productSlug: string) {
+  const key = `kbr:reactions:${productSlug}`;
+  const [counts, setCounts] = useState<Record<string, number>>({});
+  const [myReaction, setMyReaction] = useState<ReactionEmoji | null>(null);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- hydration-safe sync from localStorage (no window during SSR)
+    setCounts(readJson(key, {}));
+    setMyReaction(readJson(`${key}:mine`, null));
+    const handler = (e: Event) => {
+      const detail = (e as CustomEvent).detail;
+      if (!detail || detail.key === key) setCounts(readJson(key, {}));
+    };
+    window.addEventListener("kbr-storage", handler);
+    return () => window.removeEventListener("kbr-storage", handler);
+  }, [key]);
+
+  const react = useCallback(
+    (emoji: ReactionEmoji) => {
+      const current = readJson<Record<string, number>>(key, {});
+      const previous = readJson<ReactionEmoji | null>(`${key}:mine`, null);
+      const next = { ...current };
+      if (previous) next[previous] = Math.max(0, (next[previous] ?? 0) - 1);
+      if (previous === emoji) {
+        // toggling the same reaction off
+        writeJson(key, next);
+        writeJson(`${key}:mine`, null);
+        setCounts(next);
+        setMyReaction(null);
+        return;
+      }
+      next[emoji] = (next[emoji] ?? 0) + 1;
+      writeJson(key, next);
+      writeJson(`${key}:mine`, emoji);
+      setCounts(next);
+      setMyReaction(emoji);
+    },
+    [key]
+  );
+
+  return { counts, myReaction, react, emojis: REACTION_EMOJIS };
+}

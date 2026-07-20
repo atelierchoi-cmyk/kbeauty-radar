@@ -14,5 +14,6 @@ export const NAV_LINKS = [
   { href: "/brands", label: "Brands" },
   { href: "/products", label: "Products" },
   { href: "/celebrity-impact", label: "Celebrity Impact" },
+  { href: "/community", label: "Community" },
   { href: "/briefs", label: "Briefs" },
 ] as const;

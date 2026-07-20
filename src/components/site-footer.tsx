@@ -13,6 +13,7 @@ const COLUMNS: { titleKey: DictKey; links: { href: string; key: DictKey }[] }[] 
       { href: "/rankings", key: "nav_rankings" },
       { href: "/brands", key: "nav_brands" },
       { href: "/products", key: "nav_products" },
+      { href: "/community", key: "nav_community" },
       { href: "/compare", key: "footer_compare" },
     ],
   },

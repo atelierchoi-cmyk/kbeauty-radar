@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Section } from "@/components/ui/section";
 import { BrandMark } from "@/components/ui/logo-mark";
+import { BriefDiscussion } from "@/components/brief-discussion";
 import { getBrief, getBriefs, getBrands, getProducts } from "@/lib/data";
 
 export async function generateStaticParams() {
@@ -116,6 +117,12 @@ export default async function BriefDetailPage({ params }: { params: Promise<{ sl
           </div>
         </Section>
       )}
+
+      <Section className="pb-16">
+        <div className="max-w-2xl border-t border-[var(--color-border)] pt-8">
+          <BriefDiscussion briefSlug={brief.slug} briefTitle={brief.title} />
+        </div>
+      </Section>
     </div>
   );
 }

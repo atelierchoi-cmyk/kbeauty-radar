@@ -14,6 +14,7 @@ const NAV_KEY: Record<string, DictKey> = {
   "/brands": "nav_brands",
   "/products": "nav_products",
   "/celebrity-impact": "nav_celebrity",
+  "/community": "nav_community",
   "/briefs": "nav_briefs",
 };
 
