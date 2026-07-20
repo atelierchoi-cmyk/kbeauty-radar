@@ -73,6 +73,7 @@ export interface Product {
   reformulated: boolean;
   usageStep: string;
   imageTone: string;
+  imageUrl?: string;
   globalReviewScore: number;
   koreaScore: number;
   globalScore: number;

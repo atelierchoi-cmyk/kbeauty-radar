@@ -6,6 +6,7 @@ import { Section } from "@/components/ui/section";
 import { DemoBadge, ConfidenceBadge } from "@/components/ui/badge";
 import { TrendBadge } from "@/components/ui/trend";
 import { SaveProductButton, CompareAddButton } from "@/components/follow-button";
+import { ProductVisual } from "@/components/ui/product-visual";
 import {
   getProduct,
   getProducts,
@@ -85,12 +86,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       {/* Header */}
       <Section className="pb-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[340px_1fr]">
-          <div
-            className="flex h-[300px] items-center justify-center rounded-[var(--radius-card)] text-[14px] font-medium text-[var(--color-ink-faint)]"
-            style={{ background: "var(--color-surface-raised)" }}
-          >
-            {product.category}
-          </div>
+          <ProductVisual category={product.category} imageTone={product.imageTone} imageUrl={product.imageUrl} size="hero" />
           <div>
             <div className="text-[12px] font-medium uppercase tracking-wide text-[var(--color-ink-faint)]">
               {brand?.englishName}

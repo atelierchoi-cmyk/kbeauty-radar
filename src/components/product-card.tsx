@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { DemoBadge } from "@/components/ui/badge";
+import { ProductVisual } from "@/components/ui/product-visual";
 import type { Product, Brand } from "@/lib/types";
 
 export function ProductCard({ product, brand }: { product: Product; brand?: Brand }) {
@@ -8,12 +9,7 @@ export function ProductCard({ product, brand }: { product: Product; brand?: Bran
       href={`/products/${product.slug}`}
       className="group flex flex-col gap-3 rounded-[var(--radius-card)] border border-[var(--color-border)] bg-[var(--color-surface)] p-4 transition-colors hover:border-[var(--color-ink)]"
     >
-      <div
-        className="flex h-32 items-center justify-center rounded-md text-[13px] font-medium text-[var(--color-ink-faint)]"
-        style={{ background: "var(--color-surface-raised)" }}
-      >
-        {product.category}
-      </div>
+      <ProductVisual category={product.category} imageTone={product.imageTone} imageUrl={product.imageUrl} />
       <div>
         <div className="text-[11px] font-medium uppercase tracking-wide text-[var(--color-ink-faint)]">
           {brand?.englishName ?? product.brandSlug}
