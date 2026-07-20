@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+:root {
+  /* Base */
+  --color-bg: #f5f2ea;
+  --color-surface: #ffffff;
+  --color-surface-raised: #fbf9f4;
+  --color-text: #17140f;
+  --color-text-muted: #6b6255;
+  --color-text-faint: #a39a89;
+  --color-border: #e3ddcd;
+  --color-border-strong: #cfc7b3;
+
+  /* Accent */
+  --color-lime: #cbfd3c;
+  --color-lime-ink: #2b3300;
+  --color-cobalt: #2b46f0;
+  --color-cobalt-soft: #e7eaff;
+
+  /* Semantic */
+  --color-up: #1f8a4c;
+  --color-up-soft: #e4f5ea;
+  --color-down: #c73e2e;
+  --color-down-soft: #fbe9e6;
+  --color-neutral: #8f8677;
+  --color-neutral-soft: #efece3;
+
+  /* Radius */
+  --radius-card: 6px;
+  --radius-pill: 999px;
+}
+
+@theme inline {
+  --color-bg: var(--color-bg);
+  --color-surface: var(--color-surface);
+  --color-surface-raised: var(--color-surface-raised);
+  --color-ink: var(--color-text);
+  --color-ink-muted: var(--color-text-muted);
+  --color-ink-faint: var(--color-text-faint);
+  --color-border: var(--color-border);
+  --color-border-strong: var(--color-border-strong);
+  --color-lime: var(--color-lime);
+  --color-lime-ink: var(--color-lime-ink);
+  --color-cobalt: var(--color-cobalt);
+  --color-cobalt-soft: var(--color-cobalt-soft);
+  --color-up: var(--color-up);
+  --color-up-soft: var(--color-up-soft);
+  --color-down: var(--color-down);
+  --color-down-soft: var(--color-down-soft);
+  --color-neutral: var(--color-neutral);
+  --color-neutral-soft: var(--color-neutral-soft);
+
+  /* next/font/google (Inter, Space Grotesk) needs network access at build
+     time; this project falls back to a strong system stack + Pretendard
+     for Korean. To use self-hosted Inter/Space Grotesk, add next/font
+     imports in layout.tsx and reference their variables here instead. */
+  --font-display: "Pretendard", "Space Grotesk", -apple-system, "Segoe UI", ui-sans-serif, sans-serif;
+  --font-sans: "Pretendard", "Inter", -apple-system, "Segoe UI", ui-sans-serif, sans-serif;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+html {
+  background: var(--color-bg);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Radar scan signature motif */
+@keyframes radar-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.radar-sweep {
+  position: relative;
+}
+
+.radar-sweep::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: conic-gradient(from 0deg, transparent 0deg, transparent 300deg, var(--color-lime) 360deg);
+  opacity: 0.35;
+  animation: radar-spin 4s linear infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.75); }
+}
+
+.live-dot {
+  animation: pulse-dot 1.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .radar-sweep::before,
+  .live-dot {
+    animation: none;
+  }
+}
+
+::selection {
+  background: var(--color-lime);
+  color: var(--color-lime-ink);
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 999px;
+}

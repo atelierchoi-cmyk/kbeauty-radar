@@ -1,0 +1,112 @@
+[
+  {
+    "id": "trend_001",
+    "brandSlug": "mixsoon",
+    "productSlug": "bean-cream",
+    "eventType": "New product launch",
+    "eventDate": "2025-06-18",
+    "description": "Bean Cream launched as a richer layering partner to Bean Essence.",
+    "source": "Brand announcement",
+    "confidenceLevel": "High",
+    "impactValue": 62
+  },
+  {
+    "id": "trend_002",
+    "brandSlug": "mixsoon",
+    "productSlug": "bean-essence",
+    "eventType": "Celebrity mention",
+    "eventDate": "2024-11-20",
+    "description": "Cardi B seen using Bean Essence in an unpaid social moment.",
+    "source": "Social media",
+    "confidenceLevel": "Medium",
+    "impactValue": 91
+  },
+  {
+    "id": "trend_003",
+    "brandSlug": "beauty-of-joseon",
+    "productSlug": "relief-sun",
+    "eventType": "Review surge",
+    "eventDate": "2023-06-01",
+    "description": "Relief Sun goes viral in humid-climate skincare communities for its low white cast.",
+    "source": "Aggregated review data",
+    "confidenceLevel": "High",
+    "impactValue": 78
+  },
+  {
+    "id": "trend_004",
+    "brandSlug": "medicube",
+    "productSlug": "zero-pore-pad-2",
+    "eventType": "Reformulation",
+    "eventDate": "2024-05-01",
+    "description": "Zero Pore Pad relaunched as version 2.0 with an updated dual-texture pad.",
+    "source": "Brand announcement",
+    "confidenceLevel": "High",
+    "impactValue": 55
+  },
+  {
+    "id": "trend_005",
+    "brandSlug": "tirtir",
+    "productSlug": "mask-fit-red-cushion",
+    "eventType": "Retail expansion",
+    "eventDate": "2023-10-01",
+    "description": "Wide 30-shade range goes viral in inclusive-beauty content.",
+    "source": "Social media",
+    "confidenceLevel": "Medium",
+    "impactValue": 70
+  },
+  {
+    "id": "trend_006",
+    "brandSlug": "biodance",
+    "productSlug": "bio-collagen-real-deep-mask",
+    "eventType": "Review surge",
+    "eventDate": "2024-03-01",
+    "description": "Peel-off satisfaction videos drive a sharp global spike in review volume.",
+    "source": "Aggregated review data",
+    "confidenceLevel": "High",
+    "impactValue": 85
+  },
+  {
+    "id": "trend_007",
+    "brandSlug": "numbuzin",
+    "productSlug": "no5-vitamin-niacinamide-serum",
+    "eventType": "Review surge",
+    "eventDate": "2024-07-01",
+    "description": "Short-form video trend drives a sharp US review-volume increase.",
+    "source": "Aggregated review data",
+    "confidenceLevel": "Medium",
+    "impactValue": 66
+  },
+  {
+    "id": "trend_008",
+    "brandSlug": "anua",
+    "productSlug": "heartleaf-77-soothing-toner",
+    "eventType": "Retail expansion",
+    "eventDate": "2023-05-15",
+    "description": "Added to Ulta Beauty's online assortment, widening US distribution.",
+    "source": "Retailer listing",
+    "confidenceLevel": "High",
+    "impactValue": 48
+  },
+  {
+    "id": "trend_009",
+    "brandSlug": "skin1004",
+    "productSlug": "madagascar-centella-ampoule",
+    "eventType": "Retail expansion",
+    "eventDate": "2023-08-01",
+    "description": "Broad relaunch on Amazon US and YesStyle broadens distribution.",
+    "source": "Retailer listing",
+    "confidenceLevel": "High",
+    "impactValue": 44
+  },
+  {
+    "id": "trend_010",
+    "brandSlug": "cosrx",
+    "productSlug": "advanced-snail-96-mucin-power-essence",
+    "eventType": "Review milestone",
+    "eventDate": "2024-02-10",
+    "description": "Crosses a major cumulative review-count milestone on Amazon US.",
+    "source": "Aggregated review data",
+    "confidenceLevel": "High",
+    "impactValue": 40
+  }
+]

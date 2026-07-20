@@ -1,0 +1,386 @@
+[
+  {
+    "slug": "fermented-bean",
+    "name": "Fermented Soybean (Bean Ferment Extract)",
+    "overview": "A fermented soybean extract used for its hydrating and skin-conditioning properties, closely associated with mixsoon's single-ingredient product line. Information here is educational and does not constitute a claim of medical or dermatological treatment.",
+    "attentionChangePct": 62,
+    "relatedBrandSlugs": [
+      "mixsoon"
+    ],
+    "relatedProductSlugs": [
+      "bean-essence",
+      "bean-cream",
+      "bifida-ferment-essence"
+    ],
+    "positiveKeywords": [
+      "hydrating",
+      "glow",
+      "gentle"
+    ],
+    "negativeKeywords": [
+      "sticky",
+      "pilling",
+      "scent"
+    ],
+    "skinTypeNotes": [
+      {
+        "type": "Dry",
+        "note": "Frequently reported as well tolerated and hydrating"
+      },
+      {
+        "type": "Oily",
+        "note": "More reports of a heavy or sticky feel"
+      },
+      {
+        "type": "Sensitive",
+        "note": "Generally well tolerated, occasional fermentation-scent sensitivity"
+      }
+    ],
+    "countryAttention": [
+      {
+        "country": "United States",
+        "score": 88
+      },
+      {
+        "country": "United Kingdom",
+        "score": 64
+      },
+      {
+        "country": "Korea",
+        "score": 51
+      },
+      {
+        "country": "Thailand",
+        "score": 55
+      }
+    ]
+  },
+  {
+    "slug": "centella-asiatica",
+    "name": "Centella Asiatica",
+    "overview": "A widely used botanical extract associated with soothing and calming skincare formulas, appearing across many of the brands tracked here. Information here is educational and does not constitute a claim of medical or dermatological treatment.",
+    "attentionChangePct": 24,
+    "relatedBrandSlugs": [
+      "mixsoon",
+      "skin1004",
+      "round-lab"
+    ],
+    "relatedProductSlugs": [
+      "centella-asiatica-essence",
+      "madagascar-centella-ampoule"
+    ],
+    "positiveKeywords": [
+      "soothing",
+      "calming",
+      "lightweight"
+    ],
+    "negativeKeywords": [
+      "scent",
+      "thin texture"
+    ],
+    "skinTypeNotes": [
+      {
+        "type": "Sensitive",
+        "note": "One of the most consistently recommended ingredients for redness-prone skin"
+      },
+      {
+        "type": "Acne-prone",
+        "note": "Frequently paired with actives to offset irritation"
+      }
+    ],
+    "countryAttention": [
+      {
+        "country": "United States",
+        "score": 79
+      },
+      {
+        "country": "Thailand",
+        "score": 74
+      },
+      {
+        "country": "Korea",
+        "score": 58
+      },
+      {
+        "country": "Indonesia",
+        "score": 70
+      }
+    ]
+  },
+  {
+    "slug": "heartleaf",
+    "name": "Heartleaf (Houttuynia Cordata)",
+    "overview": "A botanical extract most associated with Anua's Heartleaf line, used in soothing, redness-focused formulas. Information here is educational and does not constitute a claim of medical or dermatological treatment.",
+    "attentionChangePct": 8,
+    "relatedBrandSlugs": [
+      "anua"
+    ],
+    "relatedProductSlugs": [
+      "heartleaf-77-soothing-toner"
+    ],
+    "positiveKeywords": [
+      "calming",
+      "gentle",
+      "affordable"
+    ],
+    "negativeKeywords": [
+      "scent",
+      "watery"
+    ],
+    "skinTypeNotes": [
+      {
+        "type": "Acne-prone",
+        "note": "Very commonly recommended alongside acne routines for its calming reputation"
+      },
+      {
+        "type": "Sensitive",
+        "note": "High tolerance reported across most reviews"
+      }
+    ],
+    "countryAttention": [
+      {
+        "country": "United States",
+        "score": 82
+      },
+      {
+        "country": "United Kingdom",
+        "score": 66
+      },
+      {
+        "country": "Korea",
+        "score": 60
+      }
+    ]
+  },
+  {
+    "slug": "rice",
+    "name": "Rice Extract / Rice Bran Water",
+    "overview": "A traditional hanbang-adjacent ingredient associated with brightening and lightweight hydration, prominent in Beauty of Joseon's formulas. Information here is educational and does not constitute a claim of medical or dermatological treatment.",
+    "attentionChangePct": 31,
+    "relatedBrandSlugs": [
+      "beauty-of-joseon"
+    ],
+    "relatedProductSlugs": [
+      "relief-sun"
+    ],
+    "positiveKeywords": [
+      "brightening",
+      "lightweight",
+      "glow"
+    ],
+    "negativeKeywords": [
+      "fragrance often paired"
+    ],
+    "skinTypeNotes": [
+      {
+        "type": "Combination",
+        "note": "Frequently cited for a lightweight, non-greasy finish"
+      },
+      {
+        "type": "Dry",
+        "note": "Often paired with richer steps for additional hydration"
+      }
+    ],
+    "countryAttention": [
+      {
+        "country": "United States",
+        "score": 76
+      },
+      {
+        "country": "Thailand",
+        "score": 81
+      },
+      {
+        "country": "Indonesia",
+        "score": 78
+      },
+      {
+        "country": "Korea",
+        "score": 54
+      }
+    ]
+  },
+  {
+    "slug": "ceramide",
+    "name": "Ceramide",
+    "overview": "A lipid ingredient associated with skin barrier support, common across barrier-repair and derma-cosmetic formulas such as AESTURA's. Information here is educational and does not constitute a claim of medical or dermatological treatment.",
+    "attentionChangePct": 14,
+    "relatedBrandSlugs": [
+      "aestura",
+      "mixsoon"
+    ],
+    "relatedProductSlugs": [
+      "atobarrier365-cream",
+      "bean-cream"
+    ],
+    "positiveKeywords": [
+      "barrier support",
+      "nourishing",
+      "trustworthy"
+    ],
+    "negativeKeywords": [
+      "heavy",
+      "price"
+    ],
+    "skinTypeNotes": [
+      {
+        "type": "Dry",
+        "note": "Widely reported as effective for barrier support and comfort"
+      },
+      {
+        "type": "Oily",
+        "note": "More reports of a heavy or greasy feel"
+      }
+    ],
+    "countryAttention": [
+      {
+        "country": "Korea",
+        "score": 71
+      },
+      {
+        "country": "United States",
+        "score": 63
+      },
+      {
+        "country": "Japan",
+        "score": 60
+      }
+    ]
+  },
+  {
+    "slug": "snail-mucin",
+    "name": "Snail Secretion Filtrate",
+    "overview": "An ingredient long associated with COSRX's breakout formulas, used for hydration and skin-conditioning benefits. Information here is educational and does not constitute a claim of medical or dermatological treatment.",
+    "attentionChangePct": 3,
+    "relatedBrandSlugs": [
+      "cosrx"
+    ],
+    "relatedProductSlugs": [
+      "advanced-snail-96-mucin-power-essence"
+    ],
+    "positiveKeywords": [
+      "repair",
+      "glow",
+      "staple"
+    ],
+    "negativeKeywords": [
+      "sticky",
+      "origin off-putting to some"
+    ],
+    "skinTypeNotes": [
+      {
+        "type": "Dry",
+        "note": "Frequently reported as effective for smoothing and hydrating"
+      },
+      {
+        "type": "Oily",
+        "note": "More reports of a sticky or tacky finish"
+      }
+    ],
+    "countryAttention": [
+      {
+        "country": "United States",
+        "score": 74
+      },
+      {
+        "country": "Korea",
+        "score": 55
+      },
+      {
+        "country": "United Kingdom",
+        "score": 62
+      }
+    ]
+  },
+  {
+    "slug": "niacinamide",
+    "name": "Niacinamide",
+    "overview": "A widely used vitamin-derived ingredient associated with brightening and pore-refining formulas, common across brightening serums and pore-focused products in this data set. Information here is educational and does not constitute a claim of medical or dermatological treatment.",
+    "attentionChangePct": 19,
+    "relatedBrandSlugs": [
+      "numbuzin",
+      "medicube"
+    ],
+    "relatedProductSlugs": [
+      "no5-vitamin-niacinamide-serum",
+      "zero-pore-pad-2"
+    ],
+    "positiveKeywords": [
+      "brightening",
+      "pore care",
+      "even tone"
+    ],
+    "negativeKeywords": [
+      "irritation at high %",
+      "purging reported"
+    ],
+    "skinTypeNotes": [
+      {
+        "type": "Combination",
+        "note": "Commonly recommended for pore and tone concerns"
+      },
+      {
+        "type": "Sensitive",
+        "note": "Can irritate at higher concentrations or with added fragrance"
+      }
+    ],
+    "countryAttention": [
+      {
+        "country": "United States",
+        "score": 77
+      },
+      {
+        "country": "Thailand",
+        "score": 70
+      },
+      {
+        "country": "Korea",
+        "score": 56
+      }
+    ]
+  },
+  {
+    "slug": "hyaluronic-acid",
+    "name": "Hyaluronic Acid (Low-Molecular)",
+    "overview": "A hydration-focused ingredient used in lightweight, layerable serum formulas such as Torriden's Dive-In line. Information here is educational and does not constitute a claim of medical or dermatological treatment.",
+    "attentionChangePct": 6,
+    "relatedBrandSlugs": [
+      "torriden"
+    ],
+    "relatedProductSlugs": [
+      "dive-in-serum"
+    ],
+    "positiveKeywords": [
+      "lightweight",
+      "hydrating",
+      "layerable"
+    ],
+    "negativeKeywords": [
+      "not enough for very dry skin alone"
+    ],
+    "skinTypeNotes": [
+      {
+        "type": "Oily",
+        "note": "Frequently preferred over heavier hydrators for this skin type"
+      },
+      {
+        "type": "Dry",
+        "note": "Often layered with richer moisturizers for full effect"
+      }
+    ],
+    "countryAttention": [
+      {
+        "country": "United States",
+        "score": 68
+      },
+      {
+        "country": "Korea",
+        "score": 58
+      },
+      {
+        "country": "United Kingdom",
+        "score": 61
+      }
+    ]
+  }
+]

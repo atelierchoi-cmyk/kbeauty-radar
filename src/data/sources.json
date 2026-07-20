@@ -1,0 +1,90 @@
+[
+  {
+    "id": "src_hwahae",
+    "name": "Hwahae",
+    "url": "https://www.hwahae.co.kr",
+    "country": "Korea",
+    "sourceType": "Review App",
+    "officialRetailer": false,
+    "supportsVerifiedPurchase": true,
+    "allowsIncentivizedReviews": true,
+    "trustWeight": 72
+  },
+  {
+    "id": "src_glowpick",
+    "name": "Glowpick",
+    "url": "https://www.glowpick.com",
+    "country": "Korea",
+    "sourceType": "Review App",
+    "officialRetailer": false,
+    "supportsVerifiedPurchase": true,
+    "allowsIncentivizedReviews": true,
+    "trustWeight": 70
+  },
+  {
+    "id": "src_oliveyoung",
+    "name": "Olive Young",
+    "url": "https://www.oliveyoung.co.kr",
+    "country": "Korea",
+    "sourceType": "Retailer",
+    "officialRetailer": true,
+    "supportsVerifiedPurchase": true,
+    "allowsIncentivizedReviews": false,
+    "trustWeight": 88
+  },
+  {
+    "id": "src_ulta",
+    "name": "Ulta",
+    "url": "https://www.ulta.com",
+    "country": "United States",
+    "sourceType": "Retailer",
+    "officialRetailer": true,
+    "supportsVerifiedPurchase": true,
+    "allowsIncentivizedReviews": false,
+    "trustWeight": 90
+  },
+  {
+    "id": "src_amazon",
+    "name": "Amazon",
+    "url": "https://www.amazon.com",
+    "country": "United States",
+    "sourceType": "Retailer",
+    "officialRetailer": true,
+    "supportsVerifiedPurchase": true,
+    "allowsIncentivizedReviews": false,
+    "trustWeight": 82
+  },
+  {
+    "id": "src_yesstyle",
+    "name": "YesStyle",
+    "url": "https://www.yesstyle.com",
+    "country": "United States",
+    "sourceType": "Retailer",
+    "officialRetailer": true,
+    "supportsVerifiedPurchase": true,
+    "allowsIncentivizedReviews": false,
+    "trustWeight": 78
+  },
+  {
+    "id": "src_stylekorean",
+    "name": "StyleKorean",
+    "url": "https://www.stylekorean.com",
+    "country": "United States",
+    "sourceType": "Retailer",
+    "officialRetailer": true,
+    "supportsVerifiedPurchase": true,
+    "allowsIncentivizedReviews": false,
+    "trustWeight": 75
+  },
+  {
+    "id": "src_reddit",
+    "name": "Reddit (r/SkincareAddiction, r/AsianBeauty)",
+    "url": "https://www.reddit.com",
+    "country": "Global",
+    "sourceType": "Community Forum",
+    "officialRetailer": false,
+    "supportsVerifiedPurchase": false,
+    "allowsIncentivizedReviews": false,
+    "trustWeight": 58
+  }
+]

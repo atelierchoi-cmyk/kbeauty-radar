@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "why-mixsoon-matters-beyond-cardi-b",
+    "title": "Why mixsoon matters beyond the Cardi B moment",
+    "category": "Brand",
+    "summary": "A single unpaid mention explains a spike, not a brand. mixsoon's underlying growth started well before November 2024.",
+    "author": "Radar Editorial",
+    "publishedAt": "2025-01-14",
+    "dataAsOf": "2026-07-01",
+    "relatedBrandSlugs": [
+      "mixsoon"
+    ],
+    "relatedProductSlugs": [
+      "bean-essence"
+    ],
+    "sources": [
+      "Aggregated review data (Amazon, YesStyle)",
+      "Social listening (demo sample)"
+    ],
+    "body": [
+      "It is tempting to credit a single celebrity moment for a brand's entire trajectory, and the November 2024 Cardi B mention is the easiest headline to reach for when explaining mixsoon's US growth. The data suggests a more layered story.",
+      "mixsoon's US review volume for Bean Essence was already climbing steadily through 2024, driven by sustained 'glass skin' and skin-barrier content on short-form video well before the Cardi B moment. The celebrity mention accelerated an existing curve rather than starting one from zero.",
+      "What the mention did do, based on the tracked attention-lift windows, was compress months of expected organic growth into a period of a few weeks. That is a real and measurable effect, but it is different from saying the brand's success depends on it.",
+      "The more durable story is a simple one-ingredient premise that is easy to explain and easy to recommend, combined with a hero SKU that does not require a shopper to learn a five-step routine. That is a structural strength independent of any single social moment.",
+      "The watch item going forward is concentration risk: Bean Essence still accounts for a large share of the brand's attention and reviews. How mixsoon's newer launches, like Bean Cream, perform over the next few quarters will say more about the brand's staying power than the original viral spike."
+    ]
+  },
+  {
+    "slug": "korean-brands-bigger-overseas-than-korea",
+    "title": "Brands that read bigger overseas than they do in Korea",
+    "category": "Korea vs Global",
+    "summary": "Several tracked brands post noticeably higher attention scores abroad than at home. The pattern says as much about discovery channels as it does about the products themselves.",
+    "author": "Radar Editorial",
+    "publishedAt": "2025-03-02",
+    "dataAsOf": "2026-07-01",
+    "relatedBrandSlugs": [
+      "mixsoon",
+      "beauty-of-joseon",
+      "skin1004",
+      "biodance"
+    ],
+    "relatedProductSlugs": [],
+    "sources": [
+      "Brand-level market breakdown (demo sample)"
+    ],
+    "body": [
+      "Across the brands tracked here, a handful show a wide gap between their domestic Korea attention score and their global attention score, most visibly mixsoon, Beauty of Joseon, SKIN1004 and Biodance.",
+      "Part of this is discovery mechanics rather than product quality. These four brands lean on ingredient-forward, single-hero-product storytelling that travels unusually well through short-form video, a channel where English-language and Southeast Asian content currently outweighs Korean-language content in volume.",
+      "It is also worth noting that a large domestic market with many mature, trusted incumbents sets a higher bar for a newer brand to stand out at home than it does for the same brand entering markets with fewer entrenched local alternatives.",
+      "None of this means Korea-market sentiment is a lagging indicator, or that these brands are somehow less 'authentic'. It means the two audiences are responding to different things: Korean buyers to a crowded field of comparable options, and overseas buyers to a simple, novel story.",
+      "The brands worth watching longer-term are the ones that can convert overseas attention into a broader catalog, since a wide global-Korea gap concentrated in a single SKU is a more fragile position than a gap spread across several well-reviewed products."
+    ]
+  },
+  {
+    "slug": "tiktok-virality-vs-consumer-satisfaction",
+    "title": "TikTok virality vs. actual consumer satisfaction",
+    "category": "Consumer Behavior",
+    "summary": "Growth momentum and review sentiment do not always move together. A short look at where they diverge, and what that gap tends to predict.",
+    "author": "Radar Editorial",
+    "publishedAt": "2025-05-20",
+    "dataAsOf": "2026-07-01",
+    "relatedBrandSlugs": [
+      "medicube",
+      "biodance",
+      "numbuzin"
+    ],
+    "relatedProductSlugs": [
+      "zero-pore-pad-2",
+      "bio-collagen-real-deep-mask",
+      "no5-vitamin-niacinamide-serum"
+    ],
+    "sources": [
+      "Brand-level scores (demo sample)"
+    ],
+    "body": [
+      "Growth momentum and review sentiment scores are correlated across most of the brands tracked here, but not perfectly, and the gap between the two is informative in its own right.",
+      "medicube shows one of the largest gaps: high growth momentum paired with sentiment that trails several slower-growing peers. That pattern is consistent with a marketing- and drop-driven growth model, where purchase intent outpaces product fit for a meaningful minority of buyers.",
+      "Biodance shows high growth and high sentiment together, which is a less common and generally more durable combination, though its short review history means that combination has not yet been tested over a long period.",
+      "numbuzin sits in between: strong growth, moderate sentiment, and a wider skin-type satisfaction spread than most peers, largely driven by fragrance and dye sensitivity in a minority of reviewers.",
+      "The practical takeaway for brand-side readers: sustained virality without a corresponding sentiment floor is a signal worth investigating before assuming a growth curve will hold, not a reason to distrust the growth itself."
+    ]
+  },
+  {
+    "slug": "korean-sunscreens-winning-in-humid-markets",
+    "title": "The Korean sunscreens winning in humid markets",
+    "category": "Product",
+    "summary": "Relief Sun's regional pattern is a useful case study in how climate, not just ingredient trends, shapes where a Korean sunscreen actually wins.",
+    "author": "Radar Editorial",
+    "publishedAt": "2025-02-11",
+    "dataAsOf": "2026-07-01",
+    "relatedBrandSlugs": [
+      "beauty-of-joseon"
+    ],
+    "relatedProductSlugs": [
+      "relief-sun"
+    ],
+    "sources": [
+      "Product-level country response data (demo sample)"
+    ],
+    "body": [
+      "Beauty of Joseon's Relief Sun scores highest, by a meaningful margin, in Thailand and Indonesia, both hot and humid year-round, and noticeably lower in Japan, where the market has strong domestic sunscreen alternatives already tuned for its own climate and preferences.",
+      "This is a useful reminder that a sunscreen's texture claims, no white cast, lightweight, non-greasy, are climate-dependent in practice. A formula that performs well in a temperate market can perform even better, or worse, once humidity and heat are added to the equation.",
+      "The US pattern sits between the two: strong scores, driven in large part by a large population living in hot, humid regions where the product's core claims are most tested and most rewarded.",
+      "For brand-side readers evaluating expansion into new sun care markets, this suggests climate-matched go-to-market sequencing, leading with humid, high-heat markets, may outperform a uniform global rollout for texture-driven sunscreens specifically."
+    ]
+  }
+]

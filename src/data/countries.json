@@ -1,0 +1,323 @@
+[
+  {
+    "slug": "united-states",
+    "name": "United States",
+    "region": "North America",
+    "overallAttention": 89,
+    "risingBrandSlugs": [
+      "mixsoon",
+      "biodance",
+      "medicube"
+    ],
+    "risingProductSlugs": [
+      "bean-essence",
+      "bio-collagen-real-deep-mask",
+      "zero-pore-pad-2"
+    ],
+    "popularCategories": [
+      "Essence",
+      "Sunscreen",
+      "Sheet Mask"
+    ],
+    "popularIngredientSlugs": [
+      "fermented-bean",
+      "centella-asiatica",
+      "niacinamide"
+    ],
+    "priceBand": "$15-30 typical",
+    "channels": [
+      "Amazon",
+      "Ulta",
+      "Sephora",
+      "TikTok Shop"
+    ],
+    "positiveKeywords": [
+      "glow",
+      "affordable",
+      "gentle"
+    ],
+    "negativeKeywords": [
+      "shipping time",
+      "sticky",
+      "sold out"
+    ],
+    "koreaGapNote": "Several viral US favorites (mixsoon, biodance) score notably higher abroad than in their home Korea market.",
+    "climate": "Temperate to humid-subtropical, varies widely by region"
+  },
+  {
+    "slug": "united-kingdom",
+    "name": "United Kingdom",
+    "region": "Europe",
+    "overallAttention": 68,
+    "risingBrandSlugs": [
+      "anua",
+      "beauty-of-joseon"
+    ],
+    "risingProductSlugs": [
+      "heartleaf-77-soothing-toner",
+      "relief-sun"
+    ],
+    "popularCategories": [
+      "Toner",
+      "Sunscreen"
+    ],
+    "popularIngredientSlugs": [
+      "heartleaf",
+      "centella-asiatica"
+    ],
+    "priceBand": "£12-25 typical",
+    "channels": [
+      "Amazon",
+      "Cult Beauty",
+      "YesStyle"
+    ],
+    "positiveKeywords": [
+      "soothing",
+      "value",
+      "gentle"
+    ],
+    "negativeKeywords": [
+      "import cost",
+      "delivery time"
+    ],
+    "koreaGapNote": "UK sentiment tracks closely with US patterns but at roughly two-thirds the review volume.",
+    "climate": "Temperate maritime, generally mild and damp"
+  },
+  {
+    "slug": "canada",
+    "name": "Canada",
+    "region": "North America",
+    "overallAttention": 63,
+    "risingBrandSlugs": [
+      "mixsoon",
+      "beauty-of-joseon"
+    ],
+    "risingProductSlugs": [
+      "bean-essence",
+      "relief-sun"
+    ],
+    "popularCategories": [
+      "Essence",
+      "Sunscreen"
+    ],
+    "popularIngredientSlugs": [
+      "fermented-bean",
+      "rice"
+    ],
+    "priceBand": "CA$20-35 typical",
+    "channels": [
+      "Amazon",
+      "YesStyle",
+      "Sephora"
+    ],
+    "positiveKeywords": [
+      "hydrating",
+      "gentle",
+      "value"
+    ],
+    "negativeKeywords": [
+      "shipping cost",
+      "winter dryness fit"
+    ],
+    "koreaGapNote": "Growth trends mirror the US closely, roughly one quarter of the review volume.",
+    "climate": "Cold winters, dry indoor heating season affects product preference"
+  },
+  {
+    "slug": "japan",
+    "name": "Japan",
+    "region": "East Asia",
+    "overallAttention": 47,
+    "risingBrandSlugs": [
+      "beauty-of-joseon",
+      "cosrx"
+    ],
+    "risingProductSlugs": [
+      "relief-sun",
+      "advanced-snail-96-mucin-power-essence"
+    ],
+    "popularCategories": [
+      "Sunscreen",
+      "Essence"
+    ],
+    "popularIngredientSlugs": [
+      "rice",
+      "snail-mucin"
+    ],
+    "priceBand": "¥2,000-4,000 typical",
+    "channels": [
+      "@cosme",
+      "Amazon Japan",
+      "Qoo10"
+    ],
+    "positiveKeywords": [
+      "軽い",
+      "低刺激",
+      "コスパ"
+    ],
+    "negativeKeywords": [
+      "香り",
+      "ベタつき"
+    ],
+    "koreaGapNote": "Attention is the lowest among tracked markets; Japan has its own strong domestic J-beauty alternatives.",
+    "climate": "Humid summers, distinct seasons; texture and white-cast sensitivity run high"
+  },
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "region": "Southeast Asia",
+    "overallAttention": 61,
+    "risingBrandSlugs": [
+      "beauty-of-joseon",
+      "biodance",
+      "medicube"
+    ],
+    "risingProductSlugs": [
+      "relief-sun",
+      "bio-collagen-real-deep-mask"
+    ],
+    "popularCategories": [
+      "Sunscreen",
+      "Sheet Mask"
+    ],
+    "popularIngredientSlugs": [
+      "rice",
+      "centella-asiatica"
+    ],
+    "priceBand": "฿500-900 typical",
+    "channels": [
+      "Shopee",
+      "Lazada",
+      "Watsons"
+    ],
+    "positiveKeywords": [
+      "ไม่เหนียว",
+      "กันแดด",
+      "คุ้มค่า"
+    ],
+    "negativeKeywords": [
+      "สินค้าหมด",
+      "ราคาสูงขึ้น"
+    ],
+    "koreaGapNote": "Sun care performs unusually well versus most markets, consistent with the hot, humid climate.",
+    "climate": "Tropical, hot and humid year-round"
+  },
+  {
+    "slug": "indonesia",
+    "name": "Indonesia",
+    "region": "Southeast Asia",
+    "overallAttention": 58,
+    "risingBrandSlugs": [
+      "beauty-of-joseon",
+      "biodance",
+      "numbuzin"
+    ],
+    "risingProductSlugs": [
+      "relief-sun",
+      "bio-collagen-real-deep-mask"
+    ],
+    "popularCategories": [
+      "Sunscreen",
+      "Serum"
+    ],
+    "popularIngredientSlugs": [
+      "rice",
+      "niacinamide"
+    ],
+    "priceBand": "Rp150,000-300,000 typical",
+    "channels": [
+      "Shopee",
+      "Tokopedia",
+      "TikTok Shop"
+    ],
+    "positiveKeywords": [
+      "ringan",
+      "tidak lengket",
+      "cerah"
+    ],
+    "negativeKeywords": [
+      "stok habis",
+      "harga naik"
+    ],
+    "koreaGapNote": "One of the fastest-growing markets tracked, led by sun care and brightening serums.",
+    "climate": "Tropical, hot and humid year-round"
+  },
+  {
+    "slug": "uae",
+    "name": "UAE",
+    "region": "Middle East",
+    "overallAttention": 40,
+    "risingBrandSlugs": [
+      "mixsoon",
+      "beauty-of-joseon"
+    ],
+    "risingProductSlugs": [
+      "bean-essence",
+      "relief-sun"
+    ],
+    "popularCategories": [
+      "Sunscreen",
+      "Essence"
+    ],
+    "popularIngredientSlugs": [
+      "centella-asiatica",
+      "rice"
+    ],
+    "priceBand": "AED 70-140 typical",
+    "channels": [
+      "Sephora ME",
+      "Amazon.ae",
+      "Namshi"
+    ],
+    "positiveKeywords": [
+      "hydration",
+      "lightweight",
+      "gentle"
+    ],
+    "negativeKeywords": [
+      "heat stability",
+      "availability"
+    ],
+    "koreaGapNote": "Smallest tracked market by volume but growing consistently across sun care and hydration.",
+    "climate": "Arid desert, extreme heat for much of the year"
+  },
+  {
+    "slug": "korea",
+    "name": "Korea",
+    "region": "East Asia",
+    "overallAttention": 65,
+    "risingBrandSlugs": [
+      "round-lab",
+      "aestura"
+    ],
+    "risingProductSlugs": [
+      "1025-dokdo-toner",
+      "atobarrier365-cream"
+    ],
+    "popularCategories": [
+      "Toner",
+      "Cream",
+      "Sunscreen"
+    ],
+    "popularIngredientSlugs": [
+      "centella-asiatica",
+      "ceramide"
+    ],
+    "priceBand": "₩15,000-35,000 typical",
+    "channels": [
+      "Olive Young",
+      "Coupang",
+      "Naver Shopping"
+    ],
+    "positiveKeywords": [
+      "저자극",
+      "신뢰",
+      "재구매"
+    ],
+    "negativeKeywords": [
+      "가격 인상",
+      "품절"
+    ],
+    "koreaGapNote": "The home market often rates viral overseas hits more moderately than the brands' international scores.",
+    "climate": "Four distinct seasons; humid summers, dry cold winters"
+  }
+]

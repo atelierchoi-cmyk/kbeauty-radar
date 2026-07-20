@@ -1,0 +1,2825 @@
+[
+  {
+    "id": "prod_bean_essence",
+    "brandSlug": "mixsoon",
+    "name": "빈 에센스",
+    "englishName": "Bean Essence",
+    "slug": "bean-essence",
+    "category": "Essence",
+    "description": "A single-ingredient essence built on fermented soybean extract, formulated to support hydration and a smoother-looking skin surface with minimal added ingredients.",
+    "size": "150ml",
+    "priceMin": 19,
+    "priceMax": 24,
+    "currency": "USD",
+    "keyIngredientSlugs": [
+      "fermented-bean"
+    ],
+    "skinTypes": [
+      "Normal",
+      "Dry",
+      "Combination"
+    ],
+    "skinConcerns": [
+      "Dullness",
+      "Dehydration",
+      "Uneven texture"
+    ],
+    "reformulated": false,
+    "usageStep": "Essence",
+    "imageTone": "beige",
+    "globalReviewScore": 82,
+    "koreaScore": 74,
+    "globalScore": 85,
+    "reviewVolume": 18400,
+    "dataConfidence": 66,
+    "lastUpdated": "2026-07-01",
+    "bestFor": [
+      "Normal to dry skin",
+      "Dull skin",
+      "Glass-skin routines",
+      "Makeup preparation"
+    ],
+    "considerBefore": [
+      "Oily skin",
+      "Users sensitive to fermented ingredients",
+      "People who dislike sticky textures",
+      "Heavy multi-layer routines"
+    ],
+    "likes": [
+      "Immediate hydration",
+      "Natural-looking glow",
+      "Improves skin texture over time",
+      "Works well before makeup",
+      "Little to no fragrance"
+    ],
+    "dislikes": [
+      "Tacky, sticky finish",
+      "Pills when layered under sunscreen",
+      "Feels heavy on oily skin",
+      "Small bottle for the price",
+      "Effects vary by user"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 88,
+        "positiveKeywords": [
+          "hydrating",
+          "glow"
+        ],
+        "negativeKeywords": [
+          "still needs cream"
+        ],
+        "sampleSize": 3100
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 58,
+        "positiveKeywords": [
+          "glow"
+        ],
+        "negativeKeywords": [
+          "heavy",
+          "sticky"
+        ],
+        "sampleSize": 2400
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 79,
+        "positiveKeywords": [
+          "balanced",
+          "glow"
+        ],
+        "negativeKeywords": [
+          "sticky in T-zone"
+        ],
+        "sampleSize": 2900
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 74,
+        "positiveKeywords": [
+          "gentle"
+        ],
+        "negativeKeywords": [
+          "fermentation scent"
+        ],
+        "sampleSize": 1500
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 61,
+        "positiveKeywords": [
+          "soothing"
+        ],
+        "negativeKeywords": [
+          "heavy",
+          "breakouts for some"
+        ],
+        "sampleSize": 1200
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 74,
+        "reviewVolume": 2200,
+        "growthPct": 5.4
+      },
+      {
+        "country": "United States",
+        "score": 86,
+        "reviewVolume": 7600,
+        "growthPct": 24.1
+      },
+      {
+        "country": "United Kingdom",
+        "score": 80,
+        "reviewVolume": 1900,
+        "growthPct": 16.2
+      },
+      {
+        "country": "Canada",
+        "score": 79,
+        "reviewVolume": 1300,
+        "growthPct": 13.8
+      },
+      {
+        "country": "Japan",
+        "score": 71,
+        "reviewVolume": 600,
+        "growthPct": 3.9
+      },
+      {
+        "country": "Thailand",
+        "score": 81,
+        "reviewVolume": 1200,
+        "growthPct": 19.4
+      },
+      {
+        "country": "Indonesia",
+        "score": 78,
+        "reviewVolume": 1000,
+        "growthPct": 17.6
+      },
+      {
+        "country": "UAE",
+        "score": 75,
+        "reviewVolume": 300,
+        "growthPct": 9.9
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/mixsoon"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=mixsoon"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=mixsoon"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=mixsoon"
+      }
+    ]
+  },
+  {
+    "id": "prod_bean_cream",
+    "brandSlug": "mixsoon",
+    "name": "빈 크림",
+    "englishName": "Bean Cream",
+    "slug": "bean-cream",
+    "category": "Cream",
+    "description": "A richer fermented-soybean moisturizer positioned as the layering partner to Bean Essence for drier skin or colder climates.",
+    "size": "50ml",
+    "priceMin": 22,
+    "priceMax": 27,
+    "currency": "USD",
+    "keyIngredientSlugs": [
+      "fermented-bean",
+      "ceramide"
+    ],
+    "skinTypes": [
+      "Dry",
+      "Normal"
+    ],
+    "skinConcerns": [
+      "Dehydration",
+      "Barrier support"
+    ],
+    "reformulated": false,
+    "usageStep": "Moisturizer",
+    "imageTone": "beige",
+    "globalReviewScore": 77,
+    "koreaScore": 70,
+    "globalScore": 79,
+    "reviewVolume": 4200,
+    "dataConfidence": 48,
+    "lastUpdated": "2026-06-20",
+    "bestFor": [
+      "Dry skin",
+      "Cold-climate routines",
+      "Barrier support"
+    ],
+    "considerBefore": [
+      "Oily or acne-prone skin",
+      "Warm, humid climates"
+    ],
+    "likes": [
+      "Rich but not greasy",
+      "Pairs well with Bean Essence",
+      "Softens skin overnight"
+    ],
+    "dislikes": [
+      "Too heavy for summer",
+      "Limited size options",
+      "Slow to fully absorb"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 85,
+        "positiveKeywords": [
+          "rich",
+          "nourishing"
+        ],
+        "negativeKeywords": [
+          "price"
+        ],
+        "sampleSize": 900
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 42,
+        "positiveKeywords": [],
+        "negativeKeywords": [
+          "too heavy"
+        ],
+        "sampleSize": 500
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 66,
+        "positiveKeywords": [
+          "good in winter"
+        ],
+        "negativeKeywords": [
+          "heavy in T-zone"
+        ],
+        "sampleSize": 700
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 73,
+        "positiveKeywords": [
+          "calming"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 400
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 40,
+        "positiveKeywords": [],
+        "negativeKeywords": [
+          "breakouts"
+        ],
+        "sampleSize": 300
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 70,
+        "reviewVolume": 500,
+        "growthPct": 3.1
+      },
+      {
+        "country": "United States",
+        "score": 80,
+        "reviewVolume": 1900,
+        "growthPct": 20.4
+      },
+      {
+        "country": "United Kingdom",
+        "score": 77,
+        "reviewVolume": 500,
+        "growthPct": 15.1
+      },
+      {
+        "country": "Canada",
+        "score": 76,
+        "reviewVolume": 350,
+        "growthPct": 14.6
+      },
+      {
+        "country": "Japan",
+        "score": 68,
+        "reviewVolume": 150,
+        "growthPct": 3.2
+      },
+      {
+        "country": "Thailand",
+        "score": 72,
+        "reviewVolume": 250,
+        "growthPct": 11.9
+      },
+      {
+        "country": "Indonesia",
+        "score": 71,
+        "reviewVolume": 220,
+        "growthPct": 11.1
+      },
+      {
+        "country": "UAE",
+        "score": 74,
+        "reviewVolume": 100,
+        "growthPct": 8.4
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/mixsoon"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=mixsoon"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=mixsoon"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=mixsoon"
+      }
+    ]
+  },
+  {
+    "id": "prod_centella_essence",
+    "brandSlug": "mixsoon",
+    "name": "센텔라 아시아티카 에센스",
+    "englishName": "Centella Asiatica Essence",
+    "slug": "centella-asiatica-essence",
+    "category": "Essence",
+    "description": "A single-ingredient centella essence aimed at soothing and calming reactive or stressed skin.",
+    "size": "150ml",
+    "priceMin": 18,
+    "priceMax": 23,
+    "currency": "USD",
+    "keyIngredientSlugs": [
+      "centella-asiatica"
+    ],
+    "skinTypes": [
+      "Sensitive",
+      "Combination",
+      "Oily"
+    ],
+    "skinConcerns": [
+      "Redness",
+      "Sensitivity",
+      "Post-breakout care"
+    ],
+    "reformulated": false,
+    "usageStep": "Essence",
+    "imageTone": "green",
+    "globalReviewScore": 79,
+    "koreaScore": 71,
+    "globalScore": 81,
+    "reviewVolume": 3600,
+    "dataConfidence": 45,
+    "lastUpdated": "2026-05-28",
+    "bestFor": [
+      "Sensitive skin",
+      "Redness-prone skin",
+      "Post-breakout recovery"
+    ],
+    "considerBefore": [
+      "Very dry skin needing richer hydration alone"
+    ],
+    "likes": [
+      "Calms visible redness",
+      "Lightweight, non-sticky compared to Bean Essence",
+      "Fragrance-free feel"
+    ],
+    "dislikes": [
+      "Less dramatic glow effect than Bean Essence",
+      "Some find it too watery",
+      "Limited availability outside bundles"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 63,
+        "positiveKeywords": [
+          "calming"
+        ],
+        "negativeKeywords": [
+          "not enough hydration alone"
+        ],
+        "sampleSize": 500
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 78,
+        "positiveKeywords": [
+          "lightweight",
+          "calming"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 900
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 80,
+        "positiveKeywords": [
+          "balanced"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 800
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 86,
+        "positiveKeywords": [
+          "soothing",
+          "gentle"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 1000
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 75,
+        "positiveKeywords": [
+          "calming"
+        ],
+        "negativeKeywords": [
+          "mild"
+        ],
+        "sampleSize": 400
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 71,
+        "reviewVolume": 600,
+        "growthPct": 4.0
+      },
+      {
+        "country": "United States",
+        "score": 82,
+        "reviewVolume": 1500,
+        "growthPct": 14.2
+      },
+      {
+        "country": "United Kingdom",
+        "score": 78,
+        "reviewVolume": 400,
+        "growthPct": 11.0
+      },
+      {
+        "country": "Canada",
+        "score": 77,
+        "reviewVolume": 300,
+        "growthPct": 10.4
+      },
+      {
+        "country": "Japan",
+        "score": 74,
+        "reviewVolume": 180,
+        "growthPct": 3.5
+      },
+      {
+        "country": "Thailand",
+        "score": 79,
+        "reviewVolume": 280,
+        "growthPct": 13.1
+      },
+      {
+        "country": "Indonesia",
+        "score": 78,
+        "reviewVolume": 240,
+        "growthPct": 12.6
+      },
+      {
+        "country": "UAE",
+        "score": 76,
+        "reviewVolume": 100,
+        "growthPct": 7.0
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/mixsoon"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=mixsoon"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=mixsoon"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=mixsoon"
+      }
+    ]
+  },
+  {
+    "id": "prod_bifida_essence",
+    "brandSlug": "mixsoon",
+    "name": "비피다 발효 에센스",
+    "englishName": "Bifida Ferment Essence",
+    "slug": "bifida-ferment-essence",
+    "category": "Essence",
+    "description": "A fermented single-ingredient essence focused on skin resilience and radiance, aimed at buyers who want the mixsoon format with a different ferment source than soybean.",
+    "size": "150ml",
+    "priceMin": 19,
+    "priceMax": 24,
+    "currency": "USD",
+    "keyIngredientSlugs": [
+      "fermented-bean"
+    ],
+    "skinTypes": [
+      "Normal",
+      "Combination",
+      "Dry"
+    ],
+    "skinConcerns": [
+      "Dullness",
+      "Resilience",
+      "Radiance"
+    ],
+    "reformulated": false,
+    "usageStep": "Essence",
+    "imageTone": "beige",
+    "globalReviewScore": 75,
+    "koreaScore": 68,
+    "globalScore": 77,
+    "reviewVolume": 1800,
+    "dataConfidence": 38,
+    "lastUpdated": "2026-04-15",
+    "bestFor": [
+      "Normal to combination skin",
+      "Buyers wanting a lighter alternative to Bean Essence"
+    ],
+    "considerBefore": [
+      "Very dry skin in winter climates",
+      "Buyers wanting a stronger glow effect"
+    ],
+    "likes": [
+      "Lighter than Bean Essence",
+      "Absorbs faster",
+      "Good layering base"
+    ],
+    "dislikes": [
+      "Less distinctive glow than Bean Essence",
+      "Smaller review base makes trends harder to confirm"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 71,
+        "positiveKeywords": [
+          "lightweight"
+        ],
+        "negativeKeywords": [
+          "not rich enough"
+        ],
+        "sampleSize": 300
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 70,
+        "positiveKeywords": [
+          "absorbs fast"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 350
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 76,
+        "positiveKeywords": [
+          "balanced"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 400
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 72,
+        "positiveKeywords": [
+          "gentle"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 250
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 66,
+        "positiveKeywords": [],
+        "negativeKeywords": [
+          "mild breakouts reported"
+        ],
+        "sampleSize": 180
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 68,
+        "reviewVolume": 300,
+        "growthPct": 2.6
+      },
+      {
+        "country": "United States",
+        "score": 78,
+        "reviewVolume": 750,
+        "growthPct": 10.4
+      },
+      {
+        "country": "United Kingdom",
+        "score": 75,
+        "reviewVolume": 200,
+        "growthPct": 8.1
+      },
+      {
+        "country": "Canada",
+        "score": 74,
+        "reviewVolume": 150,
+        "growthPct": 7.6
+      },
+      {
+        "country": "Japan",
+        "score": 70,
+        "reviewVolume": 90,
+        "growthPct": 2.1
+      },
+      {
+        "country": "Thailand",
+        "score": 76,
+        "reviewVolume": 140,
+        "growthPct": 9.4
+      },
+      {
+        "country": "Indonesia",
+        "score": 75,
+        "reviewVolume": 120,
+        "growthPct": 8.9
+      },
+      {
+        "country": "UAE",
+        "score": 73,
+        "reviewVolume": 50,
+        "growthPct": 5.0
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/mixsoon"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=mixsoon"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=mixsoon"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=mixsoon"
+      }
+    ]
+  },
+  {
+    "id": "prod_heartleaf_toner",
+    "brandSlug": "anua",
+    "name": "어성초 77% 토너",
+    "englishName": "Heartleaf 77% Soothing Toner",
+    "slug": "heartleaf-77-soothing-toner",
+    "category": "Toner",
+    "description": "A high-percentage heartleaf toner formulated to calm redness and support a compromised skin barrier, usable as a splash mask or standard toner step.",
+    "size": "270ml",
+    "priceMin": 17,
+    "priceMax": 22,
+    "currency": "USD",
+    "keyIngredientSlugs": [
+      "heartleaf"
+    ],
+    "skinTypes": [
+      "Sensitive",
+      "Acne-prone",
+      "Combination",
+      "Oily"
+    ],
+    "skinConcerns": [
+      "Redness",
+      "Irritation",
+      "Breakouts"
+    ],
+    "reformulated": false,
+    "usageStep": "Toner",
+    "imageTone": "green",
+    "globalReviewScore": 87,
+    "koreaScore": 82,
+    "globalScore": 88,
+    "reviewVolume": 41200,
+    "dataConfidence": 90,
+    "lastUpdated": "2026-07-05",
+    "bestFor": [
+      "Sensitive skin",
+      "Acne-prone skin",
+      "Redness-prone skin",
+      "Combination and oily skin"
+    ],
+    "considerBefore": [
+      "Users wanting a richer, more emollient toner",
+      "Very dry skin needing more than a toner step"
+    ],
+    "likes": [
+      "Noticeably calms redness",
+      "Large bottle, good value",
+      "Works as a splash mask",
+      "Low irritation risk"
+    ],
+    "dislikes": [
+      "Mild herbal scent bothers some users",
+      "Watery texture evaporates fast",
+      "Can feel drying if used alone"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 72,
+        "positiveKeywords": [
+          "calming"
+        ],
+        "negativeKeywords": [
+          "not enough hydration alone"
+        ],
+        "sampleSize": 4200
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 88,
+        "positiveKeywords": [
+          "calming",
+          "lightweight"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 6100
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 86,
+        "positiveKeywords": [
+          "balanced",
+          "calming"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 7400
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 91,
+        "positiveKeywords": [
+          "soothing",
+          "gentle"
+        ],
+        "negativeKeywords": [
+          "scent"
+        ],
+        "sampleSize": 8900
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 89,
+        "positiveKeywords": [
+          "calming",
+          "reduces redness"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 6700
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 82,
+        "reviewVolume": 5100,
+        "growthPct": 2.2
+      },
+      {
+        "country": "United States",
+        "score": 89,
+        "reviewVolume": 15900,
+        "growthPct": 4.8
+      },
+      {
+        "country": "United Kingdom",
+        "score": 87,
+        "reviewVolume": 4300,
+        "growthPct": 4.0
+      },
+      {
+        "country": "Canada",
+        "score": 86,
+        "reviewVolume": 2700,
+        "growthPct": 3.4
+      },
+      {
+        "country": "Japan",
+        "score": 80,
+        "reviewVolume": 1400,
+        "growthPct": 1.9
+      },
+      {
+        "country": "Thailand",
+        "score": 85,
+        "reviewVolume": 2400,
+        "growthPct": 5.6
+      },
+      {
+        "country": "Indonesia",
+        "score": 84,
+        "reviewVolume": 2000,
+        "growthPct": 5.1
+      },
+      {
+        "country": "UAE",
+        "score": 83,
+        "reviewVolume": 700,
+        "growthPct": 3.2
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/anua"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=anua"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=anua"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=anua"
+      }
+    ]
+  },
+  {
+    "id": "prod_snail_essence",
+    "brandSlug": "cosrx",
+    "name": "어드밴스드 스네일 96 뮤신 파워 에센스",
+    "englishName": "Advanced Snail 96 Mucin Power Essence",
+    "slug": "advanced-snail-96-mucin-power-essence",
+    "category": "Essence",
+    "description": "A 96% snail secretion filtrate essence aimed at repair and hydration, one of the most reviewed Korean essences on Western e-commerce.",
+    "size": "100ml",
+    "priceMin": 16,
+    "priceMax": 21,
+    "currency": "USD",
+    "keyIngredientSlugs": [
+      "snail-mucin"
+    ],
+    "skinTypes": [
+      "Normal",
+      "Dry",
+      "Combination",
+      "Sensitive"
+    ],
+    "skinConcerns": [
+      "Dehydration",
+      "Repair",
+      "Texture"
+    ],
+    "reformulated": false,
+    "usageStep": "Essence",
+    "imageTone": "beige",
+    "globalReviewScore": 84,
+    "koreaScore": 78,
+    "globalScore": 85,
+    "reviewVolume": 52000,
+    "dataConfidence": 92,
+    "lastUpdated": "2026-06-30",
+    "bestFor": [
+      "Normal to dry skin",
+      "Dull or textured skin",
+      "Post-procedure recovery routines"
+    ],
+    "considerBefore": [
+      "Buyers uncomfortable with the snail-derived ingredient concept",
+      "Very oily, acne-prone skin in humid climates"
+    ],
+    "likes": [
+      "Noticeable next-day glow",
+      "Repairs and softens rough texture",
+      "Long-standing, trusted formula"
+    ],
+    "dislikes": [
+      "Sticky, tacky drydown",
+      "Snail-derived origin off-putting to some",
+      "Slightly dated packaging"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 87,
+        "positiveKeywords": [
+          "repair",
+          "glow"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 12000
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 68,
+        "positiveKeywords": [
+          "glow"
+        ],
+        "negativeKeywords": [
+          "sticky"
+        ],
+        "sampleSize": 9800
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 80,
+        "positiveKeywords": [
+          "repair"
+        ],
+        "negativeKeywords": [
+          "sticky in T-zone"
+        ],
+        "sampleSize": 11500
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 82,
+        "positiveKeywords": [
+          "gentle",
+          "repair"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 9200
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 71,
+        "positiveKeywords": [
+          "repair"
+        ],
+        "negativeKeywords": [
+          "heavy"
+        ],
+        "sampleSize": 7500
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 78,
+        "reviewVolume": 6800,
+        "growthPct": 0.6
+      },
+      {
+        "country": "United States",
+        "score": 86,
+        "reviewVolume": 22000,
+        "growthPct": 1.4
+      },
+      {
+        "country": "United Kingdom",
+        "score": 84,
+        "reviewVolume": 6200,
+        "growthPct": 1.0
+      },
+      {
+        "country": "Canada",
+        "score": 83,
+        "reviewVolume": 4100,
+        "growthPct": 0.9
+      },
+      {
+        "country": "Japan",
+        "score": 79,
+        "reviewVolume": 2600,
+        "growthPct": 0.4
+      },
+      {
+        "country": "Thailand",
+        "score": 82,
+        "reviewVolume": 3800,
+        "growthPct": 1.6
+      },
+      {
+        "country": "Indonesia",
+        "score": 81,
+        "reviewVolume": 3200,
+        "growthPct": 1.5
+      },
+      {
+        "country": "UAE",
+        "score": 80,
+        "reviewVolume": 1100,
+        "growthPct": 0.7
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/cosrx"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=cosrx"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=cosrx"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=cosrx"
+      }
+    ]
+  },
+  {
+    "id": "prod_relief_sun",
+    "brandSlug": "beauty-of-joseon",
+    "name": "릴리프 선",
+    "englishName": "Relief Sun: Rice + Probiotics",
+    "slug": "relief-sun",
+    "category": "Sunscreen",
+    "description": "A hybrid chemical sunscreen built around rice extract and probiotic-derived ingredients, widely cited for a lightweight, low-white-cast finish.",
+    "size": "50ml",
+    "priceMin": 17,
+    "priceMax": 20,
+    "currency": "USD",
+    "keyIngredientSlugs": [
+      "rice"
+    ],
+    "skinTypes": [
+      "All"
+    ],
+    "skinConcerns": [
+      "Sun protection",
+      "Texture",
+      "Dullness"
+    ],
+    "reformulated": true,
+    "usageStep": "Sunscreen",
+    "imageTone": "beige",
+    "globalReviewScore": 85,
+    "koreaScore": 76,
+    "globalScore": 87,
+    "reviewVolume": 34500,
+    "dataConfidence": 84,
+    "lastUpdated": "2026-07-10",
+    "bestFor": [
+      "Daily wear under makeup",
+      "Humid climates",
+      "Buyers who dislike white cast"
+    ],
+    "considerBefore": [
+      "Fragrance-sensitive users",
+      "Users needing water-resistant, high-sweat formulas"
+    ],
+    "likes": [
+      "No white cast on most skin tones",
+      "Lightweight, non-greasy finish",
+      "Doubles well as a makeup primer"
+    ],
+    "dislikes": [
+      "Contains fragrance",
+      "Runny, easy to overpour",
+      "Price rose after it went viral"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 80,
+        "positiveKeywords": [
+          "lightweight"
+        ],
+        "negativeKeywords": [
+          "not enough glow alone"
+        ],
+        "sampleSize": 6900
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 88,
+        "positiveKeywords": [
+          "no white cast",
+          "lightweight"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 9200
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 87,
+        "positiveKeywords": [
+          "no white cast"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 8600
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 66,
+        "positiveKeywords": [
+          "lightweight"
+        ],
+        "negativeKeywords": [
+          "fragrance"
+        ],
+        "sampleSize": 5400
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 79,
+        "positiveKeywords": [
+          "non-greasy"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 4400
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 76,
+        "reviewVolume": 4400,
+        "growthPct": 3.0
+      },
+      {
+        "country": "United States",
+        "score": 88,
+        "reviewVolume": 14200,
+        "growthPct": 8.4
+      },
+      {
+        "country": "United Kingdom",
+        "score": 84,
+        "reviewVolume": 3600,
+        "growthPct": 6.6
+      },
+      {
+        "country": "Canada",
+        "score": 83,
+        "reviewVolume": 2500,
+        "growthPct": 6.1
+      },
+      {
+        "country": "Japan",
+        "score": 77,
+        "reviewVolume": 1500,
+        "growthPct": 2.6
+      },
+      {
+        "country": "Thailand",
+        "score": 90,
+        "reviewVolume": 5100,
+        "growthPct": 10.6
+      },
+      {
+        "country": "Indonesia",
+        "score": 89,
+        "reviewVolume": 4500,
+        "growthPct": 10.1
+      },
+      {
+        "country": "UAE",
+        "score": 82,
+        "reviewVolume": 1200,
+        "growthPct": 5.6
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/beauty-of-joseon"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=beauty-of-joseon"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=beauty-of-joseon"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=beauty-of-joseon"
+      }
+    ]
+  },
+  {
+    "id": "prod_centella_ampoule",
+    "brandSlug": "skin1004",
+    "name": "마다가스카르 센텔라 앰플",
+    "englishName": "Madagascar Centella Ampoule",
+    "slug": "madagascar-centella-ampoule",
+    "category": "Ampoule",
+    "description": "A single-origin Madagascar Centella Asiatica ampoule aimed at soothing and calming sensitive or reactive skin at an accessible price point.",
+    "size": "100ml",
+    "priceMin": 14,
+    "priceMax": 18,
+    "currency": "USD",
+    "keyIngredientSlugs": [
+      "centella-asiatica"
+    ],
+    "skinTypes": [
+      "Sensitive",
+      "Acne-prone",
+      "Combination"
+    ],
+    "skinConcerns": [
+      "Redness",
+      "Sensitivity",
+      "Breakouts"
+    ],
+    "reformulated": false,
+    "usageStep": "Serum",
+    "imageTone": "green",
+    "globalReviewScore": 81,
+    "koreaScore": 72,
+    "globalScore": 83,
+    "reviewVolume": 21600,
+    "dataConfidence": 75,
+    "lastUpdated": "2026-06-25",
+    "bestFor": [
+      "Sensitive and reactive skin",
+      "First-time serum buyers",
+      "Acne-prone skin"
+    ],
+    "considerBefore": [
+      "Very dry skin wanting a richer texture"
+    ],
+    "likes": [
+      "Very affordable for the size",
+      "Calms redness reliably",
+      "Lightweight, fast-absorbing"
+    ],
+    "dislikes": [
+      "Mild herbal scent",
+      "Thin texture feels underwhelming to some",
+      "Shipping delays reported in some regions"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 68,
+        "positiveKeywords": [
+          "calming"
+        ],
+        "negativeKeywords": [
+          "too light alone"
+        ],
+        "sampleSize": 3400
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 84,
+        "positiveKeywords": [
+          "lightweight",
+          "calming"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 5200
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 82,
+        "positiveKeywords": [
+          "balanced"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 5000
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 87,
+        "positiveKeywords": [
+          "soothing",
+          "gentle"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 6100
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 83,
+        "positiveKeywords": [
+          "calming"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 4300
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 72,
+        "reviewVolume": 1900,
+        "growthPct": 1.8
+      },
+      {
+        "country": "United States",
+        "score": 83,
+        "reviewVolume": 8800,
+        "growthPct": 5.9
+      },
+      {
+        "country": "United Kingdom",
+        "score": 80,
+        "reviewVolume": 2200,
+        "growthPct": 5.2
+      },
+      {
+        "country": "Canada",
+        "score": 79,
+        "reviewVolume": 1500,
+        "growthPct": 4.8
+      },
+      {
+        "country": "Japan",
+        "score": 74,
+        "reviewVolume": 800,
+        "growthPct": 1.5
+      },
+      {
+        "country": "Thailand",
+        "score": 85,
+        "reviewVolume": 2900,
+        "growthPct": 7.4
+      },
+      {
+        "country": "Indonesia",
+        "score": 84,
+        "reviewVolume": 2500,
+        "growthPct": 6.9
+      },
+      {
+        "country": "UAE",
+        "score": 78,
+        "reviewVolume": 600,
+        "growthPct": 3.6
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/skin1004"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=skin1004"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=skin1004"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=skin1004"
+      }
+    ]
+  },
+  {
+    "id": "prod_dive_in_serum",
+    "brandSlug": "torriden",
+    "name": "다이브인 세럼",
+    "englishName": "Dive-In Serum",
+    "slug": "dive-in-serum",
+    "category": "Serum",
+    "description": "A low-molecular hyaluronic acid serum designed for lightweight, layerable hydration without a heavy or sticky finish.",
+    "size": "50ml",
+    "priceMin": 15,
+    "priceMax": 19,
+    "currency": "USD",
+    "keyIngredientSlugs": [
+      "hyaluronic-acid"
+    ],
+    "skinTypes": [
+      "Combination",
+      "Oily",
+      "Normal"
+    ],
+    "skinConcerns": [
+      "Dehydration",
+      "Layering base"
+    ],
+    "reformulated": false,
+    "usageStep": "Serum",
+    "imageTone": "blue",
+    "globalReviewScore": 80,
+    "koreaScore": 73,
+    "globalScore": 82,
+    "reviewVolume": 12800,
+    "dataConfidence": 68,
+    "lastUpdated": "2026-06-12",
+    "bestFor": [
+      "Combination and oily skin",
+      "Buyers who dislike heavy serums",
+      "Layering under other actives"
+    ],
+    "considerBefore": [
+      "Very dry skin needing richer hydration alone"
+    ],
+    "likes": [
+      "Extremely lightweight",
+      "Layers well under other products",
+      "Simple, effective hydration"
+    ],
+    "dislikes": [
+      "Not enough for dry skin alone",
+      "Bottle design makes dosing awkward",
+      "Mild scent for a 'simple' product"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 62,
+        "positiveKeywords": [
+          "lightweight"
+        ],
+        "negativeKeywords": [
+          "not enough alone"
+        ],
+        "sampleSize": 1800
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 85,
+        "positiveKeywords": [
+          "lightweight",
+          "layerable"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 3200
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 83,
+        "positiveKeywords": [
+          "balanced",
+          "layerable"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 3000
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 76,
+        "positiveKeywords": [
+          "gentle"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 1400
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 78,
+        "positiveKeywords": [
+          "lightweight"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 1200
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 73,
+        "reviewVolume": 1200,
+        "growthPct": 1.6
+      },
+      {
+        "country": "United States",
+        "score": 82,
+        "reviewVolume": 5300,
+        "growthPct": 4.4
+      },
+      {
+        "country": "United Kingdom",
+        "score": 79,
+        "reviewVolume": 1200,
+        "growthPct": 3.8
+      },
+      {
+        "country": "Canada",
+        "score": 78,
+        "reviewVolume": 900,
+        "growthPct": 3.4
+      },
+      {
+        "country": "Japan",
+        "score": 75,
+        "reviewVolume": 500,
+        "growthPct": 1.2
+      },
+      {
+        "country": "Thailand",
+        "score": 80,
+        "reviewVolume": 1000,
+        "growthPct": 4.2
+      },
+      {
+        "country": "Indonesia",
+        "score": 79,
+        "reviewVolume": 850,
+        "growthPct": 3.9
+      },
+      {
+        "country": "UAE",
+        "score": 77,
+        "reviewVolume": 300,
+        "growthPct": 2.1
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/torriden"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=torriden"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=torriden"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=torriden"
+      }
+    ]
+  },
+  {
+    "id": "prod_dokdo_toner",
+    "brandSlug": "round-lab",
+    "name": "1025 독도 토너",
+    "englishName": "1025 Dokdo Toner",
+    "slug": "1025-dokdo-toner",
+    "category": "Toner",
+    "description": "A mineral-water toner formulated for gentle, everyday hydration with a minimal ingredient list.",
+    "size": "200ml",
+    "priceMin": 15,
+    "priceMax": 19,
+    "currency": "USD",
+    "keyIngredientSlugs": [
+      "centella-asiatica"
+    ],
+    "skinTypes": [
+      "All"
+    ],
+    "skinConcerns": [
+      "Hydration",
+      "Sensitivity"
+    ],
+    "reformulated": false,
+    "usageStep": "Toner",
+    "imageTone": "blue",
+    "globalReviewScore": 79,
+    "koreaScore": 80,
+    "globalScore": 78,
+    "reviewVolume": 9200,
+    "dataConfidence": 62,
+    "lastUpdated": "2026-05-30",
+    "bestFor": [
+      "Everyday hydration",
+      "Sensitive and normal skin",
+      "Minimalist routines"
+    ],
+    "considerBefore": [
+      "Buyers wanting an actives-forward toner"
+    ],
+    "likes": [
+      "Very gentle, low irritation",
+      "Good everyday staple",
+      "Unscented feel"
+    ],
+    "dislikes": [
+      "Unremarkable to buyers wanting visible results",
+      "Plain packaging",
+      "Slower international shipping"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 76,
+        "positiveKeywords": [
+          "gentle"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 1600
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 78,
+        "positiveKeywords": [
+          "gentle"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 1800
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 80,
+        "positiveKeywords": [
+          "everyday"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 1900
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 85,
+        "positiveKeywords": [
+          "gentle",
+          "trustworthy"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 2100
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 74,
+        "positiveKeywords": [
+          "gentle"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 900
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 80,
+        "reviewVolume": 2600,
+        "growthPct": 1.9
+      },
+      {
+        "country": "United States",
+        "score": 79,
+        "reviewVolume": 3200,
+        "growthPct": 3.1
+      },
+      {
+        "country": "United Kingdom",
+        "score": 77,
+        "reviewVolume": 800,
+        "growthPct": 2.6
+      },
+      {
+        "country": "Canada",
+        "score": 76,
+        "reviewVolume": 600,
+        "growthPct": 2.4
+      },
+      {
+        "country": "Japan",
+        "score": 78,
+        "reviewVolume": 600,
+        "growthPct": 1.6
+      },
+      {
+        "country": "Thailand",
+        "score": 75,
+        "reviewVolume": 500,
+        "growthPct": 2.6
+      },
+      {
+        "country": "Indonesia",
+        "score": 74,
+        "reviewVolume": 450,
+        "growthPct": 2.3
+      },
+      {
+        "country": "UAE",
+        "score": 73,
+        "reviewVolume": 200,
+        "growthPct": 1.3
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/round-lab"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=round-lab"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=round-lab"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=round-lab"
+      }
+    ]
+  },
+  {
+    "id": "prod_atobarrier_cream",
+    "brandSlug": "aestura",
+    "name": "아토베리어365 크림",
+    "englishName": "Atobarrier365 Cream",
+    "slug": "atobarrier365-cream",
+    "category": "Cream",
+    "description": "A barrier-repair cream developed with dermatological research, aimed at buyers managing a compromised or reactive skin barrier.",
+    "size": "80ml",
+    "priceMin": 24,
+    "priceMax": 29,
+    "currency": "USD",
+    "keyIngredientSlugs": [
+      "ceramide"
+    ],
+    "skinTypes": [
+      "Sensitive",
+      "Dry"
+    ],
+    "skinConcerns": [
+      "Barrier support",
+      "Dehydration",
+      "Redness"
+    ],
+    "reformulated": false,
+    "usageStep": "Moisturizer",
+    "imageTone": "white",
+    "globalReviewScore": 83,
+    "koreaScore": 85,
+    "globalScore": 80,
+    "reviewVolume": 7600,
+    "dataConfidence": 71,
+    "lastUpdated": "2026-06-05",
+    "bestFor": [
+      "Compromised or reactive skin barrier",
+      "Dry, sensitive skin",
+      "Post-procedure recovery"
+    ],
+    "considerBefore": [
+      "Oily or acne-prone skin",
+      "Buyers wanting a lightweight gel-cream"
+    ],
+    "likes": [
+      "Genuinely calming for irritated skin",
+      "Trusted dermatological reputation",
+      "Fragrance-free formula"
+    ],
+    "dislikes": [
+      "Heavier texture than expected",
+      "Higher price point",
+      "Limited size options"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 88,
+        "positiveKeywords": [
+          "barrier repair",
+          "nourishing"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 2800
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 48,
+        "positiveKeywords": [],
+        "negativeKeywords": [
+          "too heavy"
+        ],
+        "sampleSize": 600
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 70,
+        "positiveKeywords": [
+          "calming"
+        ],
+        "negativeKeywords": [
+          "heavy in T-zone"
+        ],
+        "sampleSize": 1100
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 90,
+        "positiveKeywords": [
+          "barrier repair",
+          "gentle"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 2400
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 52,
+        "positiveKeywords": [],
+        "negativeKeywords": [
+          "too rich"
+        ],
+        "sampleSize": 500
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 85,
+        "reviewVolume": 3200,
+        "growthPct": 1.4
+      },
+      {
+        "country": "United States",
+        "score": 81,
+        "reviewVolume": 2400,
+        "growthPct": 2.6
+      },
+      {
+        "country": "United Kingdom",
+        "score": 78,
+        "reviewVolume": 700,
+        "growthPct": 2.1
+      },
+      {
+        "country": "Canada",
+        "score": 77,
+        "reviewVolume": 500,
+        "growthPct": 1.8
+      },
+      {
+        "country": "Japan",
+        "score": 82,
+        "reviewVolume": 900,
+        "growthPct": 1.3
+      },
+      {
+        "country": "Thailand",
+        "score": 76,
+        "reviewVolume": 350,
+        "growthPct": 2.0
+      },
+      {
+        "country": "Indonesia",
+        "score": 75,
+        "reviewVolume": 300,
+        "growthPct": 1.8
+      },
+      {
+        "country": "UAE",
+        "score": 77,
+        "reviewVolume": 150,
+        "growthPct": 1.1
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/aestura"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=aestura"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=aestura"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=aestura"
+      }
+    ]
+  },
+  {
+    "id": "prod_zero_pore_pad",
+    "brandSlug": "medicube",
+    "name": "제로 모공 패드 2.0",
+    "englishName": "Zero Pore Pad 2.0",
+    "slug": "zero-pore-pad-2",
+    "category": "Pad",
+    "description": "A dual-textured toner pad formulated around exfoliating and pore-refining acids, marketed for visible pore and texture improvement.",
+    "size": "135ml / 70 pads",
+    "priceMin": 19,
+    "priceMax": 24,
+    "currency": "USD",
+    "keyIngredientSlugs": [
+      "niacinamide"
+    ],
+    "skinTypes": [
+      "Oily",
+      "Combination"
+    ],
+    "skinConcerns": [
+      "Enlarged pores",
+      "Texture",
+      "Excess oil"
+    ],
+    "reformulated": true,
+    "usageStep": "Toner Pad",
+    "imageTone": "blue",
+    "globalReviewScore": 76,
+    "koreaScore": 71,
+    "globalScore": 78,
+    "reviewVolume": 15200,
+    "dataConfidence": 60,
+    "lastUpdated": "2026-07-08",
+    "bestFor": [
+      "Oily and combination skin",
+      "Visible pores and texture concerns"
+    ],
+    "considerBefore": [
+      "Dry or sensitive skin",
+      "Buyers new to exfoliating acids"
+    ],
+    "likes": [
+      "Visible smoothing after regular use",
+      "Convenient dual-texture pad format",
+      "Satisfying immediate texture change"
+    ],
+    "dislikes": [
+      "Can irritate with overuse",
+      "Strong scent for some users",
+      "Results plateau after initial weeks"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 54,
+        "positiveKeywords": [],
+        "negativeKeywords": [
+          "irritation",
+          "drying"
+        ],
+        "sampleSize": 1600
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 84,
+        "positiveKeywords": [
+          "smoothing",
+          "results"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 5200
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 79,
+        "positiveKeywords": [
+          "smoothing"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 4600
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 46,
+        "positiveKeywords": [],
+        "negativeKeywords": [
+          "irritation"
+        ],
+        "sampleSize": 1200
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 72,
+        "positiveKeywords": [
+          "texture"
+        ],
+        "negativeKeywords": [
+          "purging reported"
+        ],
+        "sampleSize": 2600
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 71,
+        "reviewVolume": 2900,
+        "growthPct": 4.8
+      },
+      {
+        "country": "United States",
+        "score": 79,
+        "reviewVolume": 6600,
+        "growthPct": 9.6
+      },
+      {
+        "country": "United Kingdom",
+        "score": 75,
+        "reviewVolume": 1500,
+        "growthPct": 8.1
+      },
+      {
+        "country": "Canada",
+        "score": 74,
+        "reviewVolume": 1100,
+        "growthPct": 7.6
+      },
+      {
+        "country": "Japan",
+        "score": 70,
+        "reviewVolume": 700,
+        "growthPct": 3.6
+      },
+      {
+        "country": "Thailand",
+        "score": 77,
+        "reviewVolume": 1700,
+        "growthPct": 10.4
+      },
+      {
+        "country": "Indonesia",
+        "score": 76,
+        "reviewVolume": 1500,
+        "growthPct": 9.9
+      },
+      {
+        "country": "UAE",
+        "score": 72,
+        "reviewVolume": 400,
+        "growthPct": 5.6
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/medicube"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=medicube"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=medicube"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=medicube"
+      }
+    ]
+  },
+  {
+    "id": "prod_mask_fit_cushion",
+    "brandSlug": "tirtir",
+    "name": "마스크핏 레드 쿠션",
+    "englishName": "Mask Fit Red Cushion",
+    "slug": "mask-fit-red-cushion",
+    "category": "Cushion",
+    "description": "A cushion foundation offered across an unusually wide shade range, built for a natural, skincare-like finish under everyday wear.",
+    "size": "18g + 18g refill",
+    "priceMin": 19,
+    "priceMax": 24,
+    "currency": "USD",
+    "keyIngredientSlugs": [],
+    "skinTypes": [
+      "All"
+    ],
+    "skinConcerns": [
+      "Coverage",
+      "Natural finish"
+    ],
+    "reformulated": false,
+    "usageStep": "Base Makeup",
+    "imageTone": "beige",
+    "globalReviewScore": 78,
+    "koreaScore": 68,
+    "globalScore": 80,
+    "reviewVolume": 26400,
+    "dataConfidence": 66,
+    "lastUpdated": "2026-06-28",
+    "bestFor": [
+      "Buyers wanting a wide shade range",
+      "Natural, skincare-like coverage"
+    ],
+    "considerBefore": [
+      "Buyers needing full, long-wear coverage",
+      "Very oily skin needing strong oil control"
+    ],
+    "likes": [
+      "Genuinely wide, inclusive shade range",
+      "Natural finish that doesn't look cakey",
+      "Comfortable, lightweight wear"
+    ],
+    "dislikes": [
+      "Oxidizes darker on some skin over the day",
+      "Limited to light-medium coverage",
+      "Deeper shades restock less consistently"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 76,
+        "positiveKeywords": [
+          "natural finish"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 5200
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 68,
+        "positiveKeywords": [
+          "lightweight"
+        ],
+        "negativeKeywords": [
+          "fades",
+          "oxidizes"
+        ],
+        "sampleSize": 7100
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 77,
+        "positiveKeywords": [
+          "natural"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 6800
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 74,
+        "positiveKeywords": [
+          "gentle"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 3200
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 70,
+        "positiveKeywords": [
+          "lightweight"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 2900
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 68,
+        "reviewVolume": 1600,
+        "growthPct": 2.6
+      },
+      {
+        "country": "United States",
+        "score": 81,
+        "reviewVolume": 12100,
+        "growthPct": 7.4
+      },
+      {
+        "country": "United Kingdom",
+        "score": 76,
+        "reviewVolume": 2900,
+        "growthPct": 6.1
+      },
+      {
+        "country": "Canada",
+        "score": 75,
+        "reviewVolume": 2100,
+        "growthPct": 5.7
+      },
+      {
+        "country": "Japan",
+        "score": 66,
+        "reviewVolume": 600,
+        "growthPct": 2.0
+      },
+      {
+        "country": "Thailand",
+        "score": 78,
+        "reviewVolume": 1700,
+        "growthPct": 6.9
+      },
+      {
+        "country": "Indonesia",
+        "score": 77,
+        "reviewVolume": 1500,
+        "growthPct": 6.5
+      },
+      {
+        "country": "UAE",
+        "score": 74,
+        "reviewVolume": 700,
+        "growthPct": 4.0
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/tirtir"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=tirtir"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=tirtir"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=tirtir"
+      }
+    ]
+  },
+  {
+    "id": "prod_lip_sleeping_mask",
+    "brandSlug": "laneige",
+    "name": "립 슬리핑 마스크",
+    "englishName": "Lip Sleeping Mask",
+    "slug": "lip-sleeping-mask",
+    "category": "Lip Care",
+    "description": "An overnight lip treatment mask built around a berry-scented, murumuru-butter formula, one of the most recognized Korean beauty products in Western prestige retail.",
+    "size": "20g",
+    "priceMin": 22,
+    "priceMax": 24,
+    "currency": "USD",
+    "keyIngredientSlugs": [],
+    "skinTypes": [
+      "All"
+    ],
+    "skinConcerns": [
+      "Dry lips",
+      "Chapped lips"
+    ],
+    "reformulated": false,
+    "usageStep": "Lip Treatment",
+    "imageTone": "beige",
+    "globalReviewScore": 89,
+    "koreaScore": 84,
+    "globalScore": 90,
+    "reviewVolume": 68000,
+    "dataConfidence": 93,
+    "lastUpdated": "2026-07-12",
+    "bestFor": [
+      "Dry or chapped lips",
+      "Overnight lip care",
+      "Gifting"
+    ],
+    "considerBefore": [
+      "Buyers who dislike scented lip products"
+    ],
+    "likes": [
+      "Noticeably softer lips by morning",
+      "Pleasant berry scent for most users",
+      "Iconic, giftable packaging"
+    ],
+    "dislikes": [
+      "Scent too strong for some",
+      "Small jar for the price",
+      "Occasional tingling on very chapped lips"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 92,
+        "positiveKeywords": [
+          "soft lips"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 22000
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 85,
+        "positiveKeywords": [
+          "soft lips"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 9000
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 88,
+        "positiveKeywords": [
+          "soft lips"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 12000
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 76,
+        "positiveKeywords": [
+          "softening"
+        ],
+        "negativeKeywords": [
+          "scent",
+          "tingling"
+        ],
+        "sampleSize": 8000
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 87,
+        "positiveKeywords": [
+          "soft lips"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 6000
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 84,
+        "reviewVolume": 5200,
+        "growthPct": 1.1
+      },
+      {
+        "country": "United States",
+        "score": 91,
+        "reviewVolume": 31000,
+        "growthPct": 2.4
+      },
+      {
+        "country": "United Kingdom",
+        "score": 89,
+        "reviewVolume": 8200,
+        "growthPct": 2.0
+      },
+      {
+        "country": "Canada",
+        "score": 88,
+        "reviewVolume": 5600,
+        "growthPct": 1.9
+      },
+      {
+        "country": "Japan",
+        "score": 85,
+        "reviewVolume": 3400,
+        "growthPct": 0.9
+      },
+      {
+        "country": "Thailand",
+        "score": 90,
+        "reviewVolume": 6100,
+        "growthPct": 2.6
+      },
+      {
+        "country": "Indonesia",
+        "score": 89,
+        "reviewVolume": 5400,
+        "growthPct": 2.5
+      },
+      {
+        "country": "UAE",
+        "score": 87,
+        "reviewVolume": 3200,
+        "growthPct": 1.6
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/laneige"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=laneige"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=laneige"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=laneige"
+      }
+    ]
+  },
+  {
+    "id": "prod_no5_serum",
+    "brandSlug": "numbuzin",
+    "name": "넘버5 비타민 나이아신아마이드 세럼",
+    "englishName": "No.5 Vitamin Niacinamide Serum",
+    "slug": "no5-vitamin-niacinamide-serum",
+    "category": "Serum",
+    "description": "A brightening serum named for the exact concern it targets, combining niacinamide and vitamin-derived ingredients for a glow-focused finish.",
+    "size": "50ml",
+    "priceMin": 24,
+    "priceMax": 29,
+    "currency": "USD",
+    "keyIngredientSlugs": [
+      "niacinamide"
+    ],
+    "skinTypes": [
+      "Normal",
+      "Combination",
+      "Dry"
+    ],
+    "skinConcerns": [
+      "Dullness",
+      "Uneven tone"
+    ],
+    "reformulated": false,
+    "usageStep": "Serum",
+    "imageTone": "yellow",
+    "globalReviewScore": 78,
+    "koreaScore": 69,
+    "globalScore": 80,
+    "reviewVolume": 14600,
+    "dataConfidence": 52,
+    "lastUpdated": "2026-06-18",
+    "bestFor": [
+      "Dull or uneven-toned skin",
+      "Buyers wanting a visible glow effect"
+    ],
+    "considerBefore": [
+      "Fragrance- and dye-sensitive users",
+      "Very sensitive or reactive skin"
+    ],
+    "likes": [
+      "Visible glow after a few uses",
+      "Pleasant, uplifting scent",
+      "Fun, distinctive packaging"
+    ],
+    "dislikes": [
+      "Fragrance and dye may irritate sensitive skin",
+      "Slightly sticky finish",
+      "Price rose amid viral demand"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 77,
+        "positiveKeywords": [
+          "glow"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 3400
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 72,
+        "positiveKeywords": [
+          "glow"
+        ],
+        "negativeKeywords": [
+          "sticky"
+        ],
+        "sampleSize": 3100
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 79,
+        "positiveKeywords": [
+          "glow",
+          "brightening"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 3600
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 58,
+        "positiveKeywords": [
+          "brightening"
+        ],
+        "negativeKeywords": [
+          "fragrance",
+          "irritation"
+        ],
+        "sampleSize": 2200
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 68,
+        "positiveKeywords": [
+          "glow"
+        ],
+        "negativeKeywords": [
+          "breakouts reported"
+        ],
+        "sampleSize": 1900
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 69,
+        "reviewVolume": 1700,
+        "growthPct": 5.0
+      },
+      {
+        "country": "United States",
+        "score": 81,
+        "reviewVolume": 6100,
+        "growthPct": 11.2
+      },
+      {
+        "country": "United Kingdom",
+        "score": 76,
+        "reviewVolume": 1400,
+        "growthPct": 9.4
+      },
+      {
+        "country": "Canada",
+        "score": 75,
+        "reviewVolume": 1000,
+        "growthPct": 8.9
+      },
+      {
+        "country": "Japan",
+        "score": 68,
+        "reviewVolume": 400,
+        "growthPct": 3.1
+      },
+      {
+        "country": "Thailand",
+        "score": 79,
+        "reviewVolume": 1400,
+        "growthPct": 12.6
+      },
+      {
+        "country": "Indonesia",
+        "score": 78,
+        "reviewVolume": 1200,
+        "growthPct": 12.0
+      },
+      {
+        "country": "UAE",
+        "score": 73,
+        "reviewVolume": 400,
+        "growthPct": 6.4
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/numbuzin"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=numbuzin"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=numbuzin"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=numbuzin"
+      }
+    ]
+  },
+  {
+    "id": "prod_bio_collagen_mask",
+    "brandSlug": "biodance",
+    "name": "바이오 콜라겐 리얼 딥 마스크",
+    "englishName": "Bio-Collagen Real Deep Mask",
+    "slug": "bio-collagen-real-deep-mask",
+    "category": "Sheet Mask",
+    "description": "A hydrogel sheet mask designed to conform tightly to the face for an instant plumping effect, sold as an occasional 'reset' treatment rather than a daily product.",
+    "size": "1 sheet (34g)",
+    "priceMin": 5,
+    "priceMax": 8,
+    "currency": "USD",
+    "keyIngredientSlugs": [],
+    "skinTypes": [
+      "All"
+    ],
+    "skinConcerns": [
+      "Dehydration",
+      "Dullness",
+      "Instant plumping"
+    ],
+    "reformulated": false,
+    "usageStep": "Mask",
+    "imageTone": "pink",
+    "globalReviewScore": 86,
+    "koreaScore": 75,
+    "globalScore": 88,
+    "reviewVolume": 19800,
+    "dataConfidence": 54,
+    "lastUpdated": "2026-07-14",
+    "bestFor": [
+      "Special-occasion prep",
+      "Instant hydration and plumping",
+      "Gifting and self-care routines"
+    ],
+    "considerBefore": [
+      "Buyers looking for a daily, budget staple rather than a treat item"
+    ],
+    "likes": [
+      "Immediate, satisfying plumping effect",
+      "Comfortable, tight-conforming fit",
+      "Fun to use and share on video"
+    ],
+    "dislikes": [
+      "Expensive per use versus regular masks",
+      "One-time-use format creates waste",
+      "Effect fades by the next day"
+    ],
+    "skinTypeResponse": [
+      {
+        "type": "Dry",
+        "satisfaction": 88,
+        "positiveKeywords": [
+          "plumping"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 5200
+      },
+      {
+        "type": "Oily",
+        "satisfaction": 80,
+        "positiveKeywords": [
+          "hydrating"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 3800
+      },
+      {
+        "type": "Combination",
+        "satisfaction": 85,
+        "positiveKeywords": [
+          "plumping"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 4600
+      },
+      {
+        "type": "Sensitive",
+        "satisfaction": 83,
+        "positiveKeywords": [
+          "gentle"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 2900
+      },
+      {
+        "type": "Acne-prone",
+        "satisfaction": 78,
+        "positiveKeywords": [
+          "hydrating"
+        ],
+        "negativeKeywords": [],
+        "sampleSize": 2200
+      }
+    ],
+    "countryResponse": [
+      {
+        "country": "Korea",
+        "score": 75,
+        "reviewVolume": 1500,
+        "growthPct": 8.4
+      },
+      {
+        "country": "United States",
+        "score": 90,
+        "reviewVolume": 8200,
+        "growthPct": 16.1
+      },
+      {
+        "country": "United Kingdom",
+        "score": 86,
+        "reviewVolume": 1900,
+        "growthPct": 13.4
+      },
+      {
+        "country": "Canada",
+        "score": 85,
+        "reviewVolume": 1400,
+        "growthPct": 12.9
+      },
+      {
+        "country": "Japan",
+        "score": 78,
+        "reviewVolume": 600,
+        "growthPct": 6.9
+      },
+      {
+        "country": "Thailand",
+        "score": 89,
+        "reviewVolume": 2400,
+        "growthPct": 17.9
+      },
+      {
+        "country": "Indonesia",
+        "score": 88,
+        "reviewVolume": 2100,
+        "growthPct": 17.1
+      },
+      {
+        "country": "UAE",
+        "score": 82,
+        "reviewVolume": 700,
+        "growthPct": 10.4
+      }
+    ],
+    "retailLinks": [
+      {
+        "name": "Official Brand Store",
+        "type": "Official Store",
+        "url": "https://example.com/biodance"
+      },
+      {
+        "name": "Amazon",
+        "type": "Affiliate Link",
+        "url": "https://amazon.com/s?k=biodance"
+      },
+      {
+        "name": "YesStyle",
+        "type": "Affiliate Link",
+        "url": "https://yesstyle.com/search?q=biodance"
+      },
+      {
+        "name": "Olive Young Global",
+        "type": "Affiliate Link",
+        "url": "https://global.oliveyoung.com/search?q=biodance"
+      }
+    ]
+  }
+]

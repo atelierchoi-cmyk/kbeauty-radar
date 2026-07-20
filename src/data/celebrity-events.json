@@ -1,0 +1,152 @@
+[
+  {
+    "id": "cel_001",
+    "celebrityName": "Cardi B",
+    "brandSlug": "mixsoon",
+    "productSlug": "bean-essence",
+    "eventDate": "2024-11-20",
+    "platform": "Instagram Story",
+    "eventType": "Product shown in routine clip",
+    "commercialStatus": "Organic mention",
+    "sourceLabel": "Public social post (unpaid, per brand statement)",
+    "attentionLift": [
+      {
+        "window": "7D",
+        "pct": 340
+      },
+      {
+        "window": "30D",
+        "pct": 210
+      },
+      {
+        "window": "90D",
+        "pct": 95
+      }
+    ],
+    "socialMentionsChange": 480,
+    "reviewGrowthPct": 63,
+    "sentimentChangePts": 4,
+    "confidenceLevel": "Medium",
+    "isDemo": true
+  },
+  {
+    "id": "cel_002",
+    "celebrityName": "Hailey Bieber",
+    "brandSlug": "beauty-of-joseon",
+    "productSlug": "relief-sun",
+    "eventDate": "2023-06-14",
+    "platform": "TikTok",
+    "eventType": "Product mentioned in 'get ready with me' video",
+    "commercialStatus": "Unconfirmed",
+    "sourceLabel": "Fan-recorded clip, brand relationship unconfirmed",
+    "attentionLift": [
+      {
+        "window": "7D",
+        "pct": 190
+      },
+      {
+        "window": "30D",
+        "pct": 140
+      },
+      {
+        "window": "90D",
+        "pct": 70
+      }
+    ],
+    "socialMentionsChange": 260,
+    "reviewGrowthPct": 38,
+    "sentimentChangePts": 2,
+    "confidenceLevel": "Low",
+    "isDemo": true
+  },
+  {
+    "id": "cel_003",
+    "celebrityName": "Sydney Sweeney",
+    "brandSlug": "biodance",
+    "productSlug": "bio-collagen-real-deep-mask",
+    "eventDate": "2024-03-02",
+    "platform": "TikTok",
+    "eventType": "Product used in a filmed skincare routine",
+    "commercialStatus": "Product seeding",
+    "sourceLabel": "Brand-confirmed press seeding list",
+    "attentionLift": [
+      {
+        "window": "7D",
+        "pct": 410
+      },
+      {
+        "window": "30D",
+        "pct": 250
+      },
+      {
+        "window": "90D",
+        "pct": 120
+      }
+    ],
+    "socialMentionsChange": 610,
+    "reviewGrowthPct": 88,
+    "sentimentChangePts": 5,
+    "confidenceLevel": "High",
+    "isDemo": true
+  },
+  {
+    "id": "cel_004",
+    "celebrityName": "Dua Lipa",
+    "brandSlug": "laneige",
+    "productSlug": "lip-sleeping-mask",
+    "eventDate": "2022-09-10",
+    "platform": "Interview / Press",
+    "eventType": "Named product in a favorites press interview",
+    "commercialStatus": "Organic mention",
+    "sourceLabel": "Print magazine interview",
+    "attentionLift": [
+      {
+        "window": "7D",
+        "pct": 60
+      },
+      {
+        "window": "30D",
+        "pct": 35
+      },
+      {
+        "window": "90D",
+        "pct": 15
+      }
+    ],
+    "socialMentionsChange": 90,
+    "reviewGrowthPct": 9,
+    "sentimentChangePts": 1,
+    "confidenceLevel": "Medium",
+    "isDemo": true
+  },
+  {
+    "id": "cel_005",
+    "celebrityName": "Alix Earle",
+    "brandSlug": "medicube",
+    "productSlug": "zero-pore-pad-2",
+    "eventDate": "2024-09-05",
+    "platform": "TikTok",
+    "eventType": "Featured in a viral 'pore routine' video",
+    "commercialStatus": "Paid partnership",
+    "sourceLabel": "Sponsored content disclosure on video",
+    "attentionLift": [
+      {
+        "window": "7D",
+        "pct": 520
+      },
+      {
+        "window": "30D",
+        "pct": 300
+      },
+      {
+        "window": "90D",
+        "pct": 140
+      }
+    ],
+    "socialMentionsChange": 720,
+    "reviewGrowthPct": 104,
+    "sentimentChangePts": -2,
+    "confidenceLevel": "High",
+    "isDemo": true
+  }
+]
